@@ -1,5 +1,19 @@
 #TwinCAT 3 library versions
 
+Below a list of library versions which came with a certain release. Library versions in **bold** have been updated with respect to the previous version.
+
+## 4024.17
+
+| Library         | Version      |
+| --------------- | ------------ |
+| Tc3_EventLogger | **3.1.28.0** |
+
+## 4024.15
+
+| Library         | Version  |
+| --------------- | -------- |
+| Tc3_EventLogger | 3.1.27.0 |
+
 ## 4022.29
 
 | Library               | Version  |
