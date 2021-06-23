@@ -12,4 +12,4 @@ Overview which library versions come which a certain TwinCAT 3 version.
 
 If you noticed that a bug was fixed in a certain version or a certain feature was added, please add this via a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). 
 
-In case you have a larger change in mind, please first open an issue such that it can be discussed first. Example could be if you want to add a new page, or restucture how the project is organized.
+In case you have a larger change in mind, please first open an issue such that it can be discussed first. Example could be if you want to add a new page, or restructure how the project is organized.
