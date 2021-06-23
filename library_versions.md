@@ -1,4 +1,4 @@
-#TwinCAT 3 library versions
+# TwinCAT 3 library versions
 
 Below a list of library versions which came with a certain release. Library versions in **bold** have been updated with respect to the previous version.
 
