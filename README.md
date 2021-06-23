@@ -2,6 +2,11 @@
 
 There are no official release notes of TwinCAT products or change logs. This repo is a community effort which tries to track changes in Beckhoff's TwinCAT software. 
 
+## Changelogs
+
+- [TwinCAT](tc3_changelog.md)
+- [TwinCAT 3 HMI (TE2000) ](hmi_changelog.md)
+
 ## Library versions
 
 Overview which library versions come which a certain TwinCAT 3 version.
