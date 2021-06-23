@@ -1,4 +1,4 @@
-# Unoffial TwinCAT changelog
+# Unofficial TwinCAT changelog
 
 There are no official release notes of TwinCAT products or change logs. This repo is a community effort which tries to track changes in Beckhoff's TwinCAT software. 
 
