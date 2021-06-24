@@ -12,6 +12,12 @@
 
 - Change in path dynamics for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/9237585035.html&id=8344109939385622623)
 
+## Version 4024.11
+
+### Features
+
+- Error analysis with core dump [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/6884133515.html&id=9193305343691095620)
+
 ## Version 4024.10
 
 ### Features
