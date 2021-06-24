@@ -6,6 +6,12 @@
 
 - Support of Visual Studio 2019
 
+## Version 4024.4
+
+### Features
+
+- Spline interpolation for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/8250797579.html&id=2443170267198973234)
+
 ## Version 4024.0 
 
 ### [Features](https://www.beckhoff.com/en-en/products/automation/twincat/twincat-3-build-4024/)
