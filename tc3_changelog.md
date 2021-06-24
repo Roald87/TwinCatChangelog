@@ -1,5 +1,17 @@
 # TwinCAT 3 changelog
 
+## Version 4024.15
+
+### Features
+
+- Automatic Accurate Stop for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/10038263179.html&id=270450158997902620)
+
+## Version 4024.12
+
+### Features
+
+- Change in path dynamics for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/9237585035.html&id=8344109939385622623)
+
 ## Version 4024.10
 
 ### Features
@@ -11,6 +23,7 @@
 ### Features
 
 - Spline interpolation for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/8250797579.html&id=2443170267198973234)
+- Change in axis dynamics for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/8405470603.html&id=745347749354607281)
 
 ## Version 4024.0 
 
