@@ -5,7 +5,12 @@ There are no official release notes of TwinCAT products or change logs. This rep
 ## Changelogs
 
 - [TwinCAT](tc3_changelog.md)
-- [TwinCAT 3 HMI (TE2000) ](hmi_changelog.md)
+- [TE2000: TwinCAT 3 HMI](hmi_changelog.md)
+
+### Functions
+- [TF511x: TwinCAT 3 Kinematic Transformation](TF511x_tc3_kinematic_transformation.md)
+- [TF5400: TwinCAT 3 Advanced Motion Pack](TF5400_tc3_advanced_motion_pack.md)
+- [TF5420: TwinCAT 3 Motion Pick-and-Place](TF5420_tc3_motion_pick-and-place.md)
 
 ## Library versions
 
