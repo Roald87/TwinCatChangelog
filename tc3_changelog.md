@@ -17,6 +17,9 @@
 ### Features
 
 - Error analysis with core dump [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/6884133515.html&id=9193305343691095620)
+- Function added: F_GetCpuCoreIndex [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_system/8824208779.html&id=557299053114329889)
+- Function added: F_GetCpuCoreInfo [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_system/8824297099.html&id=985625989999487283)
+- Function added: F_GetTaskTotalTime [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_system/8830227851.html&id=9031864548778018881)
 
 ## Version 4024.10
 
