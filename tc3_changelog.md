@@ -60,6 +60,7 @@
 - Conditional compilation also available in the declaration section (in addition to implementation part).
 - Multi-line support in pragma declarations.
 - New, optional Base64 memory format for graphical PLC objects.
+- Events stored in a separate .tmc file are formatted with line breaks.
 
 #### PLC HMI properties
 
