@@ -46,6 +46,7 @@
 - Improved overview in the I/O configuration mapping dialog
 - 'Go To Definition' from the PLC process image to the PLC code in the I/O configuration
 - 'Secure ADS' Extension (uses TCP port 8016): encrypted ADS communication
+- Detection of failure to free up dynamically allocated memory. See also this [StackOverflow question](https://stackoverflow.com/q/68709572/6329629).
 
 #### PLC properties
 
