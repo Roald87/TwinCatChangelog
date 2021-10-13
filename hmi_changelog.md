@@ -1,5 +1,10 @@
 # TE2000: TwinCAT 3 HMI 
 
+## Version 1.12.750.1
+
+- Important optimizations 
+- New TwinCAT HMI Project Generator template
+
 ## Version 1.10.1336.203
 
 ### Bug fix
