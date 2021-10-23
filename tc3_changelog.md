@@ -5,6 +5,13 @@
 
 - Maximum router memory increased from 1024 MB to 4095 MB [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf7xxx_tc3_vision/18014405306596491.html&id=)
 
+### Fix
+- `Find All References` (Cross Reference List) broken in v4024.20 solved. 
+
+### Known issues
+
+- In VS2019 `Find` and `Find and Replace` does not work properly in TwinCAT files, related issue is tracked [here](https://developercommunity.visualstudio.com/content/problem/1168181/find-in-ivstextimage-does-not-work-in-visuastusio.html) .
+
 ## Version 4024.15
 
 ### Features
