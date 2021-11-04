@@ -43,6 +43,8 @@
 - Function added: F_GetCpuCoreIndex [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_system/8824208779.html&id=557299053114329889)
 - Function added: F_GetCpuCoreInfo [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_system/8824297099.html&id=985625989999487283)
 - Function added: F_GetTaskTotalTime [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_system/8830227851.html&id=9031864548778018881)
+- Function added: FindAndSplit [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_utilities/8235976331.html&id=3438267492659948266)
+- Function added: FindAndSplitChar [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_utilities/8245507851.html&id=9180678329069202236)
 - The license dongle is only disabled for the active project variant or group [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325850379.html?id=1933378558029834697)
 
 ## Version 4024.10
