@@ -25,6 +25,9 @@
 
 ## Version 4024.15
 
+### Bug fix
+- A faulty driver in 4024.10-4024.12 can lead to Visual Studio crashes during a stand-alone project build. Specifically during the "Import symbol information" build step if a .tpr refactor file is present. Should be fixed in > 4024.12 (Source: Beckhoff support CH. See also [StackOverflow](https://stackoverflow.com/a/69926305/6329629).)
+
 ### Features
 
 - Automatic Accurate Stop for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/10038263179.html&id=270450158997902620)
