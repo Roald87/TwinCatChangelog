@@ -7,6 +7,7 @@
 
 ### Fix
 - `Find All References` (Cross Reference List) broken in v4024.20 solved. 
+- 'Symbolic Mapping' bug fixed.  Prior to this release, if Symbolic Mapping was enabled, some mapped links could become non-functional if there was certain ADS communications during an activation or restart.
 
 ### Known issues
 
