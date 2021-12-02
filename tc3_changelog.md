@@ -4,6 +4,14 @@
 ### Features
 
 - Maximum router memory increased from 1024 MB to 4095 MB [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf7xxx_tc3_vision/18014405306596491.html&id=)
+- Function block added: FB_CoEDriveEnable
+ [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731917067.html?id=7592382315255221170)
+- Function block added: FB_CoEDriveMoveVelocity
+ [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731918987.html?id=2982660607506303008)
+- Function block added: FB_SoEDriveEnable
+ [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731920907.html?id=8376906030662804724)
+- Function block added: FB_SoEDriveMoveVelocity
+ [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731923211.html?id=3237529037083558957)
 
 ### Fix
 - `Find All References` (Cross Reference List) broken in v4024.20 solved. 
