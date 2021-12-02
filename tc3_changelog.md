@@ -7,6 +7,7 @@
 
 ### Fix
 - `Find All References` (Cross Reference List) broken in v4024.20 solved. 
+- 'Symbolic Mapping' bug fixed.  Prior to this release, if Symbolic Mapping was enabled, some mapped links could become non-functional if there was certain ADS communications during an activation or restart.
 
 ### Known issues
 
@@ -24,6 +25,9 @@
 - The NOV-DP-RAM device is only disabled for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325868939.html?id=5362468858073827180)
 
 ## Version 4024.15
+
+### Bug fix
+- A faulty driver in 4024.10-4024.12 can lead to Visual Studio crashes during a stand-alone project build. Specifically during the "Import symbol information" build step if a .tpr refactor file is present. Should be fixed in > 4024.12 (Source: Beckhoff support CH. See also [StackOverflow](https://stackoverflow.com/a/69926305/6329629).)
 
 ### Features
 

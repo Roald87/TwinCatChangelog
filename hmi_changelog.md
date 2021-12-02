@@ -1,5 +1,8 @@
 # TE2000: TwinCAT 3 HMI 
 
+## Version 1.12.752.0
+- New EtherCAT Diagnostics 
+
 ## Version 1.12.750.1
 
 - Important optimizations 
