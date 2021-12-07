@@ -201,8 +201,3 @@
 
 ### Bugfixes 
 - Solves many crashes that occurred with XAE 3.1.4020.28. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
-
-## Version 4020.28
-
-### Remarks
-- Do not forget to apply the patches (DLL updates via batch file). Otherwise library parameters could be lost and login is only possible with download or online change. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
