@@ -1,6 +1,7 @@
 # TwinCAT 3 changelog
 
 ## Version 4024.22
+
 ### Features
 
 - Maximum router memory increased from 1024 MB to 4095 MB [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf7xxx_tc3_vision/18014405306596491.html&id=)
@@ -46,8 +47,17 @@
 ### Features
 
 - Change in path dynamics for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/9237585035.html&id=8344109939385622623)
+- SFC steps may have integrated actions (new property Duplicate on copy) that are renamed automatically together with the step (works already with 3.1.4022 but without automatic renaming). This makes the renaming and copy and paste of steps much easier. 
+- 
+
+### Remarks 
+
+- `REFERENCE TO` PLC inputs (`%I*`) is not possible anymore. If a peripheral (e.g. Kuka KRC4 and Stäubli CS9) use it, you must switch the compiler version to a previous version in the PLC project properties in TwinCAT as long as no peripheral update is available. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+
 
 ## Version 4024.11
+
+**Usage of this version is not recommended due to some issues. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).**
 
 ### Features
 
@@ -60,6 +70,8 @@
 - The license dongle is only disabled for the active project variant or group [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325850379.html?id=1933378558029834697)
 
 ## Version 4024.10
+
+**Usage of this version is not recommended due to some issues. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).**
 
 ### Features
 
@@ -107,12 +119,14 @@
 - Small icons in the solution tree show access modifiers.
 - ENUMs now also available as strings in the PLC.
 - Exception handling via TRY-CATCH for 32-bit systems.
-- Simplified commenting function in the PLC.
+- Simplified commenting function in the PLC using CTRL + K and then either CTRL + C or CTRL + U to comment or uncomment.
 - 'Released' flag is used during library creation.
 - Conditional compilation also available in the declaration section (in addition to implementation part).
 - Multi-line support in pragma declarations.
 - New, optional Base64 memory format for graphical PLC objects.
 - Events stored in a separate .tmc file are formatted with line breaks.
+- New pragma `{attribute 'to_string'}`, which makes the enum states available in string format. [InfoSys](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/5725733771.html?id=7792079828149116810)
+
 
 #### PLC HMI properties
 
@@ -153,14 +167,42 @@
 - Integrated dictionary with physical units.
 - Clear display option for clearing the chart after the display time has elapsed.
 
+## Version 4022.32
+
+### Features
+- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+
+### Bugs
+- In the RM setup of this version the file TcXaeVsx.15.0.dll is missing. Therefore no TwinSAFE project can be opened (the TwinSAFE are is empty). Manually install this file into the Windows GAC. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+
 ## Version 4022.30
 
 ### Bugfixes
 
 - POUs can be removed from a PLC project in visual studio again.
+- Project compare tool works again. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+
+## Version 4022.27 
+
+### Bugs
+- The Beckhoff project compare tool of this version does not work. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+
+### Remarks
+- TwinCAT 3.1.4022 handles I/O variables (`%I*`,`%Q*`) differently from all previous versions. If an I/O variable has the attributes `{attribute 'hide'}` or `{attribute 'hide_all_locals'}` (directly or indirectly), this variable is no longer included in the I/O image of the task and therefore cannot be linked any more. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+
 
 ## Version 4022.16
 
 ### Bugfixes
 
 - Sometimes the Microsoft patch for Spectre/Meltdown would prevent you from activating the configuration on a local runtime. [See also](https://stackoverflow.com/questions/51185052/twincat-running-on-isolated-cores-failed). 
+
+## Version 4020.56 
+
+### Bugfixes 
+- Solves many crashes that occurred with XAE 3.1.4020.28. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+
+## Version 4020.28
+
+### Remarks
+- Do not forget to apply the patches (DLL updates via batch file). Otherwise library parameters could be lost and login is only possible with download or online change. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
