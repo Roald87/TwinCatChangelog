@@ -50,11 +50,6 @@
 - SFC steps may have integrated actions (new property Duplicate on copy) that are renamed automatically together with the step (works already with 3.1.4022 but without automatic renaming). This makes the renaming and copy and paste of steps much easier. 
 - 
 
-### Remarks 
-
-- `REFERENCE TO` PLC inputs (`%I*`) is not possible anymore. If a peripheral (e.g. Kuka KRC4 and Stäubli CS9) use it, you must switch the compiler version to a previous version in the PLC project properties in TwinCAT as long as no peripheral update is available. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
-
-
 ## Version 4024.11
 
 **Usage of this version is not recommended due to some issues. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).**
