@@ -18,7 +18,7 @@ There are no official release notes of TwinCAT products or change logs. This rep
 
 Overview which library versions come which a certain TwinCAT 3 version.
 
-- [TwinCAT 3 library versions](library_versions.md)
+- [TwinCAT 3 library versions](https://github.com/RumstiBumsti/TcLibraryVersions/blob/main/README.md)
 
 ## Contributing
 
