@@ -239,6 +239,54 @@
 
 - Sometimes the Microsoft patch for Spectre/Meltdown would prevent you from activating the configuration on a local runtime. [See also](https://stackoverflow.com/questions/51185052/twincat-running-on-isolated-cores-failed). 
 
+## Version 3.1.4022
+
+### Features
+
+- Added: [`Tc2_Utilities.F_STRINGEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/5780438923.html?id=6928518594785789589)
+- Added: [`Tc2_Utilities.LcomplexAbs`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3535240971.html?id=826556108380960842)
+- Added: [`Tc2_Utilities.WSTRNCPY`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483063563.html?id=3178942571482947329)
+- Added: [`Tc2_Utilities.WSTRING_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483049227.html?id=1615333347779599462)
+- Added: [`Tc2_Utilities.WSTRING_TO_STRING2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483047691.html?id=2220736197141714813)
+- Added: [`Tc2_Utilities.wsLiteral_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/5780535435.html?id=3788526581188074016)
+- Added: [`Tc2_Utilities.WLEN2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483045003.html?id=908431530916067418)
+- Added: [`Tc2_Utilities.WCONCAT2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483043467.html?id=6477035735369982799)
+- Added: [`Tc2_Utilities.WCHAR_TO_CHAR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483040395.html?id=3572446996165722911)
+- Added: [`Tc2_Utilities.UTF8Len`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483035787.html?id=5152018493670823258)
+- Added: [`Tc2_Utilities.UTF8_TO_WSTRING`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483038859.html?id=6293447896088538757)
+- Added: [`Tc2_Utilities.UTF8_TO_STRING`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483037323.html?id=7153306779533761382)
+- Added: [`Tc2_Utilities.STRNCPY`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483034251.html?id=6415054610264989739)
+- Added: [`Tc2_Utilities.STRING_TO_WSTRING2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483030795.html?id=4355496359005380414)
+- Added: [`Tc2_Utilities.STRING_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483029259.html?id=8258377475100135580)
+- Added: [`Tc2_Utilities.sLiteral_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/5780471691.html?id=3996529178600600803)
+- Added: [`Tc2_Utilities.REPLACE2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200692747.html?id=309792110435626821)
+- Added: [`Tc2_Utilities.LEN2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483027723.html?id=7966711455956053090)
+- Added: [`Tc2_Utilities.INSERT2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200668299.html?id=6412063259184688465)
+- Added: [`Tc2_Utilities.FindAndReplaceChar`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200643851.html?id=6444635135431152359)
+- Added: [`Tc2_Utilities.FindAndReplace`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200619403.html?id=5472984639162228823)
+- Added: [`Tc2_Utilities.FindAndDeleteChar`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200594955.html?id=3023452241284604042)
+- Added: [`Tc2_Utilities.FindAndDelete`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200570507.html?id=3275570602994103116)
+- Added: [`Tc2_Utilities.FIND2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200546059.html?id=8124448501256565351)
+- Added: [`Tc2_Utilities.F_StringIsASCII`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483026187.html?id=6403710968972101316)
+- Added: [`Tc2_Utilities.DELETE2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200521611.html?id=1692054860927445572)
+- Added: [`Tc2_Utilities.CONCAT2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483024651.html?id=5935001660749708670)
+- Added: [`Tc2_Utilities.CHAR_TO_WCHAR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3482945931.html?id=5128214655345699760)
+- Added: [`Tc2_Utilities.FB_LicFileRead`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579085323.html?id=1940182520793325016)
+- Added: [`Tc2_Utilities.FB_LicFileGetStorageInfo`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579079563.html?id=3904551008063323022)
+- Added: [`Tc2_Utilities.FB_LicFileDelete`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579083403.html?id=6667775283406021036)
+- Added: [`Tc2_Utilities.FB_LicFileCreate`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579081483.html?id=3031798484988331324)
+- Added: [`Tc2_Utilities.FB_LicFileCopyToDongle`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579189259.html?id=918041785061474232)
+- Added: [`Tc2_Utilities.FB_LicFileCopyFromDongle`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579190795.html?id=7323222936363407890)
+- Added: [`Tc2_Utilities.FB_GetLicensesEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4401062667.html?id=2961109817772863253)
+- Added: [`Tc2_Utilities.FB_GetLicenseDongles`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4400937483.html?id=2696036852839688)
+- Added: [`Tc2_Utilities.FB_GetDongleSystemID`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4401006475.html?id=3795013013564158743)
+- Added: [`Tc2_Utilities.FB_FormatString2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6206471435.html?id=5556582112958115161)
+- Added: [`Tc2_Utilities.FB_CheckLicense`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4400766091.html?id=5157666698728179333)
+- Added: [`Tc2_System.E_TcMemoryArea`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/4012983947.html?id=388198589678573187)
+- Added: [`Tc2_System.F_CheckMemoryArea`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/4012887435.html?id=1489036489025421628)
+- Added: [`Tc2_System.F_GetStructMemberAlignment`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/31021579.html?id=243854104101513882)
+- Added: [`Tc2_System.FB_FileLoad`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/7083988875.html?id=5357302780541448503)
+
 ## Version 3.1.4020.56 
 
 ### Bugfixes 
@@ -327,12 +375,14 @@
 
 - Added: [`Tc2_Utilities.FB_GetVolumeId`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/2220215051.html?id=788353785489284857)
 - Added: [`Tc2_Utilities.FB_GetLicenses`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/1876715915.html?id=928231625113806812)
+- Added: [`Tc2_Utilities.ST_TcOnlineLicensesInfoData`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/1876880907.html?id=3739149647499681467)
 
 ## Version 3.1.4013
 
 ### Features
 
 - Added: [`Tc2_MDP.FB_MDP_ReadIndex`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_mdp/178718603.html?id=1682933375785172630)
+
 
 ## Version 3.1.0
 
@@ -1047,60 +1097,6 @@
 - Added: [`Tc2_Utilities.FB_AddRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682603019.html?id=518382000701176094)
 - Added: [`Tc2_EtherCAT.FILETIME64_TO_DCTIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501953035.html?id=6364488115705130388)
 - Added: [`Tc2_EtherCAT.DCTIME64_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501992459.html?id=5144094238682126626)
-
-## Version 3.1.0.4018
-
-### Features
-
-- Added: [`Tc2_Utilities.ST_TcOnlineLicensesInfoData`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/1876880907.html?id=3739149647499681467)
-
-## Version 3.1.4022
-
-### Features
-
-- Added: [`Tc2_Utilities.F_STRINGEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/5780438923.html?id=6928518594785789589)
-- Added: [`Tc2_Utilities.LcomplexAbs`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3535240971.html?id=826556108380960842)
-- Added: [`Tc2_Utilities.WSTRNCPY`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483063563.html?id=3178942571482947329)
-- Added: [`Tc2_Utilities.WSTRING_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483049227.html?id=1615333347779599462)
-- Added: [`Tc2_Utilities.WSTRING_TO_STRING2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483047691.html?id=2220736197141714813)
-- Added: [`Tc2_Utilities.wsLiteral_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/5780535435.html?id=3788526581188074016)
-- Added: [`Tc2_Utilities.WLEN2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483045003.html?id=908431530916067418)
-- Added: [`Tc2_Utilities.WCONCAT2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483043467.html?id=6477035735369982799)
-- Added: [`Tc2_Utilities.WCHAR_TO_CHAR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483040395.html?id=3572446996165722911)
-- Added: [`Tc2_Utilities.UTF8Len`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483035787.html?id=5152018493670823258)
-- Added: [`Tc2_Utilities.UTF8_TO_WSTRING`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483038859.html?id=6293447896088538757)
-- Added: [`Tc2_Utilities.UTF8_TO_STRING`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483037323.html?id=7153306779533761382)
-- Added: [`Tc2_Utilities.STRNCPY`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483034251.html?id=6415054610264989739)
-- Added: [`Tc2_Utilities.STRING_TO_WSTRING2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483030795.html?id=4355496359005380414)
-- Added: [`Tc2_Utilities.STRING_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483029259.html?id=8258377475100135580)
-- Added: [`Tc2_Utilities.sLiteral_TO_UTF8`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/5780471691.html?id=3996529178600600803)
-- Added: [`Tc2_Utilities.REPLACE2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200692747.html?id=309792110435626821)
-- Added: [`Tc2_Utilities.LEN2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483027723.html?id=7966711455956053090)
-- Added: [`Tc2_Utilities.INSERT2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200668299.html?id=6412063259184688465)
-- Added: [`Tc2_Utilities.FindAndReplaceChar`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200643851.html?id=6444635135431152359)
-- Added: [`Tc2_Utilities.FindAndReplace`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200619403.html?id=5472984639162228823)
-- Added: [`Tc2_Utilities.FindAndDeleteChar`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200594955.html?id=3023452241284604042)
-- Added: [`Tc2_Utilities.FindAndDelete`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200570507.html?id=3275570602994103116)
-- Added: [`Tc2_Utilities.FIND2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200546059.html?id=8124448501256565351)
-- Added: [`Tc2_Utilities.F_StringIsASCII`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483026187.html?id=6403710968972101316)
-- Added: [`Tc2_Utilities.DELETE2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6200521611.html?id=1692054860927445572)
-- Added: [`Tc2_Utilities.CONCAT2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3483024651.html?id=5935001660749708670)
-- Added: [`Tc2_Utilities.CHAR_TO_WCHAR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/3482945931.html?id=5128214655345699760)
-- Added: [`Tc2_Utilities.FB_LicFileRead`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579085323.html?id=1940182520793325016)
-- Added: [`Tc2_Utilities.FB_LicFileGetStorageInfo`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579079563.html?id=3904551008063323022)
-- Added: [`Tc2_Utilities.FB_LicFileDelete`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579083403.html?id=6667775283406021036)
-- Added: [`Tc2_Utilities.FB_LicFileCreate`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579081483.html?id=3031798484988331324)
-- Added: [`Tc2_Utilities.FB_LicFileCopyToDongle`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579189259.html?id=918041785061474232)
-- Added: [`Tc2_Utilities.FB_LicFileCopyFromDongle`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4579190795.html?id=7323222936363407890)
-- Added: [`Tc2_Utilities.FB_GetLicensesEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4401062667.html?id=2961109817772863253)
-- Added: [`Tc2_Utilities.FB_GetLicenseDongles`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4400937483.html?id=2696036852839688)
-- Added: [`Tc2_Utilities.FB_GetDongleSystemID`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4401006475.html?id=3795013013564158743)
-- Added: [`Tc2_Utilities.FB_FormatString2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/6206471435.html?id=5556582112958115161)
-- Added: [`Tc2_Utilities.FB_CheckLicense`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/4400766091.html?id=5157666698728179333)
-- Added: [`Tc2_System.E_TcMemoryArea`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/4012983947.html?id=388198589678573187)
-- Added: [`Tc2_System.F_CheckMemoryArea`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/4012887435.html?id=1489036489025421628)
-- Added: [`Tc2_System.F_GetStructMemberAlignment`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/31021579.html?id=243854104101513882)
-- Added: [`Tc2_System.FB_FileLoad`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/7083988875.html?id=5357302780541448503)
 
 ## Version 3.0.0
 
