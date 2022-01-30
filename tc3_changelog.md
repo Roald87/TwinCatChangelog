@@ -129,6 +129,22 @@
 - 'Go To Definition' from the PLC process image to the PLC code in the I/O configuration
 - 'Secure ADS' Extension (uses TCP port 8016): encrypted ADS communication
 - Detection of failure to free up dynamically allocated memory. See also this [StackOverflow question](https://stackoverflow.com/q/68709572/6329629).
+- Added: [`Tc2_Utilities.T_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10462547339.html?id=1736794131572696041)
+- Added: [`Tc2_Utilities.ST_AmsRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682664203.html?id=4450318543653888095)
+- Added: [`Tc2_Utilities.LWORD_TO_BASE36STR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10943539851.html?id=7453948431444796808)
+- Added: [`Tc2_Utilities.SYSTEMTIME_TO_ISO8601`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10686615819.html?id=987846697612946657)
+- Added: [`Tc2_Utilities.SYSTEMTIME_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10501106571.html?id=5646165147131094852)
+- Added: [`Tc2_Utilities.FILETIME64_TO_SYSTEMTIME`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10501062667.html?id=267106869469058574)
+- Added: [`Tc2_Utilities.FILETIME64_TO_ISO8601`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10686718475.html?id=106005877054630778)
+- Added: [`Tc2_Utilities.FILETIME64_TO_DT`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10501013003.html?id=2387775026043421082)
+- Added: [`Tc2_Utilities.F_TranslateFileTime64Bias`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500926731.html?id=4787993297403188665)
+- Added: [`Tc2_Utilities.DT_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500987275.html?id=2767023879435760174)
+- Added: [`Tc2_Utilities.FB_TzSpecificLocalTimeToFileTime64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500798219.html?id=1031280571104318808)
+- Added: [`Tc2_Utilities.FB_GetAdaptersInfoEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/11309317259.html?id=6980676768203801212)
+- Added: [`Tc2_Utilities.FB_FileTime64ToTzSpecificLocalTime`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500868619.html?id=2175943120680441081)
+- Added: [`Tc2_Utilities.FB_AddRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682603019.html?id=518382000701176094)
+- Added: [`Tc2_EtherCAT.FILETIME64_TO_DCTIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501953035.html?id=6364488115705130388)
+- Added: [`Tc2_EtherCAT.DCTIME64_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501992459.html?id=5144094238682126626)
 
 #### PLC properties
 
@@ -1076,27 +1092,6 @@
 - Added: [`Tc2_Coupler.FB_ReadCouplerDiag`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_coupler/42594315.html?id=3826489383443943666)
 - Added: [`Tc2_Coupler.CouplerReset`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_coupler/42592779.html?id=8709580392896105157)
 - Added: [`Tc2_Coupler.ReadWriteTerminalReg`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_coupler/42591243.html?id=7275193739490913707)
-
-## Version 3.1.4024
-
-### Features
-
-- Added: [`Tc2_Utilities.T_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10462547339.html?id=1736794131572696041)
-- Added: [`Tc2_Utilities.ST_AmsRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682664203.html?id=4450318543653888095)
-- Added: [`Tc2_Utilities.LWORD_TO_BASE36STR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10943539851.html?id=7453948431444796808)
-- Added: [`Tc2_Utilities.SYSTEMTIME_TO_ISO8601`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10686615819.html?id=987846697612946657)
-- Added: [`Tc2_Utilities.SYSTEMTIME_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10501106571.html?id=5646165147131094852)
-- Added: [`Tc2_Utilities.FILETIME64_TO_SYSTEMTIME`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10501062667.html?id=267106869469058574)
-- Added: [`Tc2_Utilities.FILETIME64_TO_ISO8601`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10686718475.html?id=106005877054630778)
-- Added: [`Tc2_Utilities.FILETIME64_TO_DT`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10501013003.html?id=2387775026043421082)
-- Added: [`Tc2_Utilities.F_TranslateFileTime64Bias`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500926731.html?id=4787993297403188665)
-- Added: [`Tc2_Utilities.DT_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500987275.html?id=2767023879435760174)
-- Added: [`Tc2_Utilities.FB_TzSpecificLocalTimeToFileTime64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500798219.html?id=1031280571104318808)
-- Added: [`Tc2_Utilities.FB_GetAdaptersInfoEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/11309317259.html?id=6980676768203801212)
-- Added: [`Tc2_Utilities.FB_FileTime64ToTzSpecificLocalTime`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10500868619.html?id=2175943120680441081)
-- Added: [`Tc2_Utilities.FB_AddRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682603019.html?id=518382000701176094)
-- Added: [`Tc2_EtherCAT.FILETIME64_TO_DCTIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501953035.html?id=6364488115705130388)
-- Added: [`Tc2_EtherCAT.DCTIME64_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501992459.html?id=5144094238682126626)
 
 ## Version 3.0.0
 
