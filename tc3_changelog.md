@@ -1,5 +1,9 @@
 # TwinCAT 3 changelog
 
+### Known issues
+
+- In VS2019 `Find` and `Find and Replace` does not work properly in TwinCAT files, related issue is tracked [here](https://developercommunity.visualstudio.com/content/problem/1168181/find-in-ivstextimage-does-not-work-in-visuastusio.html) .
+
 ## Version 3.1.4024.22
 
 ### Features
@@ -26,10 +30,6 @@
 ### Fix
 - `Find All References` (Cross Reference List) broken in v4024.20 solved. 
 - 'Symbolic Mapping' bug fixed.  Prior to this release, if Symbolic Mapping was enabled, some mapped links could become non-functional if there was certain ADS communications during an activation or restart.
-
-### Known issues
-
-- In VS2019 `Find` and `Find and Replace` does not work properly in TwinCAT files, related issue is tracked [here](https://developercommunity.visualstudio.com/content/problem/1168181/find-in-ivstextimage-does-not-work-in-visuastusio.html) .
 
 ## Version 3.1.4024.17
 
@@ -60,8 +60,6 @@
 ### Features
 
 - Change in path dynamics for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/9237585035.html&id=8344109939385622623)
-- SFC steps may have integrated actions (new property Duplicate on copy) that are renamed automatically together with the step (works already with 3.1.4022 but without automatic renaming). This makes the renaming and copy and paste of steps much easier. 
-- 
 
 ## Version 3.1.4024.11
 
@@ -129,6 +127,7 @@
 - 'Go To Definition' from the PLC process image to the PLC code in the I/O configuration
 - 'Secure ADS' Extension (uses TCP port 8016): encrypted ADS communication
 - Detection of failure to free up dynamically allocated memory. See also this [StackOverflow question](https://stackoverflow.com/q/68709572/6329629).
+- SFC steps may have integrated actions (new property Duplicate on copy) that are renamed automatically together with the step (works already with 3.1.4022 but without automatic renaming). This makes the renaming and copy and paste of steps much easier. 
 - Added: [`Tc2_Utilities.T_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10462547339.html?id=1736794131572696041)
 - Added: [`Tc2_Utilities.ST_AmsRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682664203.html?id=4450318543653888095)
 - Added: [`Tc2_Utilities.LWORD_TO_BASE36STR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10943539851.html?id=7453948431444796808)
@@ -234,9 +233,6 @@
 ### Bugs
 - The Beckhoff project compare tool of this version does not work. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
-### Remarks
-- TwinCAT 3.1.4022 handles I/O variables (`%I*`,`%Q*`) differently from all previous versions. If an I/O variable has the attributes `{attribute 'hide'}` or `{attribute 'hide_all_locals'}` (directly or indirectly), this variable is no longer included in the I/O image of the task and therefore cannot be linked any more. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
-
 ## Version 3.1.4022.20
 
 ### Features
@@ -302,6 +298,9 @@
 - Added: [`Tc2_System.F_CheckMemoryArea`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/4012887435.html?id=1489036489025421628)
 - Added: [`Tc2_System.F_GetStructMemberAlignment`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/31021579.html?id=243854104101513882)
 - Added: [`Tc2_System.FB_FileLoad`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/7083988875.html?id=5357302780541448503)
+
+### Remarks
+- TwinCAT 3.1.4022 handles I/O variables (`%I*`,`%Q*`) differently from all previous versions. If an I/O variable has the attributes `{attribute 'hide'}` or `{attribute 'hide_all_locals'}` (directly or indirectly), this variable is no longer included in the I/O image of the task and therefore cannot be linked any more. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
 ## Version 3.1.4020.56 
 
