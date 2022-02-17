@@ -161,7 +161,6 @@
 - Events stored in a separate .tmc file are formatted with line breaks.
 - New pragma `{attribute 'to_string'}`, which makes the enum states available in string format. [InfoSys](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/5725733771.html?id=7792079828149116810)
 
-
 #### PLC HMI properties
 
 - Automatic local start of the PLC HMI client at runtime.
@@ -204,10 +203,54 @@
 ## Version 3.1.4022.32
 
 ### Features
-- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN). 
+- TMC-Editor: Black Screen for Choose Language.
+- One-Click PDO-Mapping: a PDO can now be displayed as a structured variable, which may contain sub-structures.
+
+#### IO
+
+- EthernetIP: new features "CoEoverCIP" and "FwdMsgToAmsPort" and implemented 16 bit Class/Instance/Attribute support.
+- Added support for installing adapter via MAC address.
+- EthernetIP: Forwarding of Class3-Messages to AmsPort (e.g. PLC) is now implemented.
+- Extension of the diag history for some slaves.
+- Multiple SafetyLogic-devices are now supported.
+- EK9300 and EL6631-0010: support up to 4 ARs in parallel.
+- Profinet: supports feature 'discard IOXS' for the device simulation.
+- EthernetIP: Eth Statistics and IpStack Statistics are now available.
+- Creating a warning if `attribute 'hide'` is used for persistent variables.
+- Initialization via Attribute `'TcInitSymbol'`: Added opportunity to define min and max values in PLC editor which are observed regarding the defined init value in init-table.
+
+#### NC
+
+- Disable/reduce NC logger messages for flying saw (e.g. calc extrema for `MC_GearInVelo`, `MC_GearInPos`) if switching the NC logger level from 2 (SMART) down to 1 (MINIMUM).
+- The "NC Axis Name" can now be longer than 31 characters for more extended information.
+- `MC_GearInMultiMaster` oversampling factor changed down to 10 to get a lower real time usage.
+- Improvement for large master values of splines.
+- New parameter for total covered distance.
 
 ### Bugs
+
+#### XAE
+
 - In the RM setup of this version the file TcXaeVsx.15.0.dll is missing. Therefore no TwinSAFE project can be opened (the TwinSAFE are is empty). Manually install this file into the Windows GAC. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- Tc3Eventlogger: Selection of language keys needed two clicks instead of one.
+- CoE-Online: CoE-Entries of type Octet-String are now displayable up to 0x1000 bytes.
+- Tc Live Watch: Depending on Symbol Selection sometimes an increment was executed twice.
+- Compare tool: compare with target without PLC was not possible.
+- EthernetIP: EDS-Files with a Parameter-Value > INT64 and EDS-Files without Assembly were rejected.
+- Automation Interface: TcXaeShell froze while importing a xti file of an EL6652.
+- When a Tc2 Runtime was active and TwinCAT 3.1 XAE was trying to activate to configuration on the local hardware no error message was pointing to this error.
+- Axes might not be automatically renamed when copied and pasted between different folder levels.
+- Import of a device via XTI-File named "Device 0" lead to Visual Studio problem.
+
+#### PLC
+
+- Library content was only shown in Library Manager after reopening the solution.
+- Support of initial values for TcInitSymbol in attribute declaration context.
+- Automation Interface: LibraryManager: Adding a library with three-digit version number contained ".*" on fourth place.
+- PLC HMI: VISU_TASK was duplicated under certain conditions when opening solution.
+- Output Pane "Build" was not cleared before "Check all objects".
+- Error might appear when installing lib from tnzip archive ("Failed to open managed library (Reason: Object reference not set to an instance of an object)").
 
 ## Version 3.1.4022.31
 
