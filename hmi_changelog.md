@@ -3,6 +3,10 @@
 ## Known bugs
 - PLC properties can only be used explicitly in the HMI by linking the property individually to a control attribute. If the entire function block is linked to a control attribute, the property is not called. This is the case when a function block is used as the source data of the DataGrid or as a user control parameter. 
 
+## Version 1.12.754.4
+- EtherCAT Diagnostics can be used to write/force values
+- New 'File Explorer' control
+
 ## Version 1.12.752.0
 - New EtherCAT Diagnostics 
 
