@@ -4,6 +4,13 @@
 
 - In VS2019 `Find` and `Find and Replace` does not work properly in TwinCAT files, related issue is tracked [here](https://developercommunity.visualstudio.com/content/problem/1168181/find-in-ivstextimage-does-not-work-in-visuastusio.html) .
 
+
+## Version 3.1.4024.25
+
+### Features
+- TF6281 Ethernet/IP Scanner - EDS Parser version updated to 1.9 - Overhaul of UI interface and optimization of Config Instance handling
+
+
 ## Version 3.1.4024.22
 
 ### Features
