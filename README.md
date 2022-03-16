@@ -1,5 +1,9 @@
 # Unofficial TwinCAT changelog
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Roald87/TwinCatChangelog/main.svg)](https://results.pre-commit.ci/latest/github/Roald87/TwinCatChangelog/main)
+
+reStructuredText
+
 There are no official release notes of TwinCAT products or change logs. This repo is a community effort which tries to track changes in Beckhoff's TwinCAT software.
 
 ## Changelogs
