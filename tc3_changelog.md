@@ -4,10 +4,10 @@
 
 - In VS2019 `Find` and `Find and Replace` does not work properly in TwinCAT files, related issue is tracked [here](https://developercommunity.visualstudio.com/content/problem/1168181/find-in-ivstextimage-does-not-work-in-visuastusio.html) .
 
-
 ## Version 3.1.4024.25
 
 ### Features
+
 - TF6281 Ethernet/IP Scanner - EDS Parser version updated to 1.9 - Overhaul of UI interface and optimization of Config Instance handling
 - Exceptions within `FB_init`, `FB_reinit` & `FB_exit` now result in a core dump [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/5094414603.html&id=)
 
@@ -17,14 +17,14 @@
 
 - Maximum router memory increased from 1024 MB to 4095 MB [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf7xxx_tc3_vision/18014405306596491.html&id=)
 - Function block added: FB_CoEDriveEnable
- [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731917067.html?id=7592382315255221170)
+  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731917067.html?id=7592382315255221170)
 - Function block added: FB_CoEDriveMoveVelocity
- [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731918987.html?id=2982660607506303008)
+  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731918987.html?id=2982660607506303008)
 - Function block added: FB_SoEDriveEnable
- [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731920907.html?id=8376906030662804724)
+  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731920907.html?id=8376906030662804724)
 - Function block added: FB_SoEDriveMoveVelocity
- [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731923211.html?id=3237529037083558957)
- - Added: [`Tc2_System.FB_ResetTaskExceedCounter`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/11107119115.html?id=1948900602695240988)
+  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731923211.html?id=3237529037083558957)
+- Added: [`Tc2_System.FB_ResetTaskExceedCounter`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/11107119115.html?id=1948900602695240988)
 - Added: [`Tc2_System.FB_ReadTaskExceedCounter`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/11267603979.html?id=6554750661018839478)
 - Added: [`Tc2_SystemCX.FB_CX70xx_RW_EEPROM`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_systemcx/11009227147.html?id=6115162706063450010)
 - Added: [`Tc2_SystemCX.FB_CX7080_LED_WD`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_systemcx/11282066699.html?id=7675427565773653776)
@@ -35,7 +35,8 @@
 - Added: [`Tc2_SystemCX.FB_CXReadKBusCycleUpdateTime`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_systemcx/11107094923.html?id=8135264835800328354)
 
 ### Fix
-- `Find All References` (Cross Reference List) broken in v4024.20 solved. 
+
+- `Find All References` (Cross Reference List) broken in v4024.20 solved.
 - 'Symbolic Mapping' bug fixed.  Prior to this release, if Symbolic Mapping was enabled, some mapped links could become non-functional if there was certain ADS communications during an activation or restart.
 
 ## Version 3.1.4024.17
@@ -52,10 +53,10 @@
 - The NOV-DP-RAM device is only disabled for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325868939.html?id=5362468858073827180)
 - Added: [`Tc3_EventLogger.FB_TcEventCsvExportSettings`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc3_eventlogger/9956771211.html?id=8771111572755601179)
 
-
 ## Version 3.1.4024.15
 
 ### Bug fix
+
 - A faulty driver in 4024.10-4024.12 can lead to Visual Studio crashes during a stand-alone project build. Specifically during the "Import symbol information" build step if a .tpr refactor file is present. Should be fixed in > 4024.12 (Source: Beckhoff support CH. See also [StackOverflow](https://stackoverflow.com/a/69926305/6329629).)
 
 ### Features
@@ -121,7 +122,7 @@
 - The links selected via the Link to I/O button and Link To PLC on the Settings tab are only saved for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/variant_management/6325876619.html&id=)
 - The links to the process data objects (PDOs) of the EtherCAT device are only saved for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325868939.html?id=5362468858073827180)
 
-## Version 3.1.4024.0 
+## Version 3.1.4024.0
 
 ### [Features](https://www.beckhoff.com/en-en/products/automation/twincat/twincat-3-build-4024/)
 
@@ -134,7 +135,7 @@
 - 'Go To Definition' from the PLC process image to the PLC code in the I/O configuration
 - 'Secure ADS' Extension (uses TCP port 8016): encrypted ADS communication
 - Detection of failure to free up dynamically allocated memory. See also this [StackOverflow question](https://stackoverflow.com/q/68709572/6329629).
-- SFC steps may have integrated actions (new property Duplicate on copy) that are renamed automatically together with the step (works already with 3.1.4022 but without automatic renaming). This makes the renaming and copy and paste of steps much easier. 
+- SFC steps may have integrated actions (new property Duplicate on copy) that are renamed automatically together with the step (works already with 3.1.4022 but without automatic renaming). This makes the renaming and copy and paste of steps much easier.
 - Added: [`Tc2_Utilities.T_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10462547339.html?id=1736794131572696041)
 - Added: [`Tc2_Utilities.ST_AmsRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682664203.html?id=4450318543653888095)
 - Added: [`Tc2_Utilities.LWORD_TO_BASE36STR`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/10943539851.html?id=7453948431444796808)
@@ -210,7 +211,8 @@
 ## Version 3.1.4022.32
 
 ### Features
-- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN). 
+
+- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 - TMC-Editor: Black Screen for Choose Language.
 - One-Click PDO-Mapping: a PDO can now be displayed as a structured variable, which may contain sub-structures.
 
@@ -254,7 +256,7 @@
 
 - Library content was only shown in Library Manager after reopening the solution.
 - Support of initial values for TcInitSymbol in attribute declaration context.
-- Automation Interface: LibraryManager: Adding a library with three-digit version number contained ".*" on fourth place.
+- Automation Interface: LibraryManager: Adding a library with three-digit version number contained ".\*" on fourth place.
 - PLC HMI: VISU_TASK was duplicated under certain conditions when opening solution.
 - Output Pane "Build" was not cleared before "Check all objects".
 - Error might appear when installing lib from tnzip archive ("Failed to open managed library (Reason: Object reference not set to an instance of an object)").
@@ -278,9 +280,10 @@
 
 - Added: [`Tc2_System.FB_IecCriticalSection`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/2326017163.html?id=3047524173527813729)
 
-## Version 3.1.4022.27 
+## Version 3.1.4022.27
 
 ### Bugs
+
 - The Beckhoff project compare tool of this version does not work. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
 ## Version 3.1.4022.20
@@ -299,7 +302,7 @@
 
 ### Bugfixes
 
-- Sometimes the Microsoft patch for Spectre/Meltdown would prevent you from activating the configuration on a local runtime. [See also](https://stackoverflow.com/questions/51185052/twincat-running-on-isolated-cores-failed). 
+- Sometimes the Microsoft patch for Spectre/Meltdown would prevent you from activating the configuration on a local runtime. [See also](https://stackoverflow.com/questions/51185052/twincat-running-on-isolated-cores-failed).
 
 ## Version 3.1.4022
 
@@ -350,11 +353,12 @@
 - Added: [`Tc2_System.FB_FileLoad`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/7083988875.html?id=5357302780541448503)
 
 ### Remarks
+
 - TwinCAT 3.1.4022 handles I/O variables (`%I*`,`%Q*`) differently from all previous versions. If an I/O variable has the attributes `{attribute 'hide'}` or `{attribute 'hide_all_locals'}` (directly or indirectly), this variable is no longer included in the I/O image of the task and therefore cannot be linked any more. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
-## Version 3.1.4020.56 
+## Version 3.1.4020.56
 
-### Bugfixes 
+### Bugfixes
 
 - Solves many crashes that occurred with XAE 3.1.4020.28. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
@@ -447,7 +451,6 @@
 ### Features
 
 - Added: [`Tc2_MDP.FB_MDP_ReadIndex`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_mdp/178718603.html?id=1682933375785172630)
-
 
 ## Version 3.1.0
 

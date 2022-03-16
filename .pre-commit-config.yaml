@@ -1,0 +1,7 @@
+- repo: https://github.com/executablebooks/mdformat
+  rev: 0.7.14  # Use the ref you want to point at
+  hooks:
+  - id: mdformat
+    # Optionally add plugins
+    additional_dependencies:
+    - mdformat-gfm

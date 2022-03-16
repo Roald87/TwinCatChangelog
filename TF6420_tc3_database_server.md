@@ -2,6 +2,5 @@
 
 ## Version 3.3.34.0
 
--  TwinCAT/BSD support added
--  New Query Editor 
-
+- TwinCAT/BSD support added
+- New Query Editor
