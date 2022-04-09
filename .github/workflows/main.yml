@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: conda env create --file conda.yml
-      - run: conda init bash
-      - run: conda activate changelog39
+      - run: conda install --file conda.yml
       - run: poetry install
       - run: mkdocs gh-deploy --force
