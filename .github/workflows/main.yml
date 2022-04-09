@@ -1,0 +1,13 @@
+name: documentation
+on:
+  push:
+    branches:
+      - main
+jobs:
+  gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: conda env create --file conda.yml
+      - run: poetry install
+      - run: mkdocs gh-deploy --force
