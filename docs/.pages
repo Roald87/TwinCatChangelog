@@ -1,0 +1,7 @@
+nav:
+  - Home: index.md
+  - TwinCAT 3: tc3.md
+  - HMI: hmi_changelog.md
+  - Functions: functions
+  - Library Versions: https://github.com/RumstiBumsti/TcLibraryVersions/blob/main/README.md
+  - ...

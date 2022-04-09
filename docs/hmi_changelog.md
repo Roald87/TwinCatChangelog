@@ -1,4 +1,4 @@
-# TE2000: TwinCAT 3 HMI
+# TwinCAT 3 HMI: TE2000
 
 ## Known bugs
 

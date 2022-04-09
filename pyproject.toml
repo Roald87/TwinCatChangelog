@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "twincatchangelog"
+version = "0.1.0"
+description = "Unofficial community TwinCAT changelog"
+authors = ["Roald Ruiter <roaldruiter@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs-material = "^8.2.8"
+mkdocs-awesome-pages-plugin = "^2.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

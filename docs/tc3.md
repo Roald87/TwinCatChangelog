@@ -1,4 +1,4 @@
-# TwinCAT 3 changelog
+# TwinCAT 3
 
 ### Known issues
 

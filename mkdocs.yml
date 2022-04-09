@@ -1,0 +1,36 @@
+site_name: Unofficial TwinCAT 3 Changelog
+
+repo_url: https://github.com/Roald87/TwinCatChangelog
+repo_name: Roald87/TwinCatChangelog
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      primary: deep purple
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      primary: yellow
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  features:   
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:    
+  - toc:
+      toc_depth: 2
+      permalink: "#"
