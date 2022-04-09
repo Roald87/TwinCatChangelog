@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: conda env create --file conda.yml
+      - run: conda init bash
       - run: conda activate changelog39
       - run: poetry install
       - run: mkdocs gh-deploy --force
