@@ -8,7 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: conda env update --name base --file conda.yml
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: changelog39
+          environment-file: conda.yml
+          python-version: 3.9
+          auto-activate-base: false
       - name: Install Poetry
         uses: snok/install-poetry@v1
       - run: poetry install
