@@ -6,6 +6,9 @@ on:
 jobs:
   gh-pages:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0} # needed to share shell profile between steps https://github.community/t/how-to-share-shell-profile-between-steps-or-how-to-use-nvm-rvm-in-steps/16398
     steps:
       - uses: actions/checkout@v2
       - uses: conda-incubator/setup-miniconda@v2
@@ -14,10 +17,10 @@ jobs:
           environment-file: conda.yml
           python-version: 3.9
           auto-activate-base: false
-      - run: conda info
-      - run: conda activate changelog39
-      - run: conda info
-#       - name: Install Poetry
-#         uses: snok/install-poetry@v1
+      - name: Activate conda env
+        run: |
+          conda info
+          conda activate changelog39
+          conda info
       - run: poetry install
       - run: mkdocs gh-deploy --force
