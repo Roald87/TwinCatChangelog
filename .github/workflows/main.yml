@@ -17,10 +17,5 @@ jobs:
           environment-file: conda.yml
           python-version: 3.9
           auto-activate-base: false
-      - name: Activate conda env
-        run: |
-          conda info
-          conda activate changelog39
-          conda info
       - run: poetry install
       - run: mkdocs gh-deploy --force
