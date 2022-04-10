@@ -25,6 +25,8 @@ theme:
     - navigation.top
     - navigation.tracking
     - toc.integrate
+    - search.suggest
+    - search.highlight
 
 plugins:
   - search
