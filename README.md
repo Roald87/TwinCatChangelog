@@ -1,6 +1,6 @@
 # Unofficial TwinCAT Changelog
 
-<https://cookncode.com/TwinCatChangelog/>
+<https://cookncode.com/TwinCatChangelog/> or <https://tcchanges.cookncode.com/>
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Roald87/TwinCatChangelog/main.svg)](https://results.pre-commit.ci/latest/github/Roald87/TwinCatChangelog/main)
 
