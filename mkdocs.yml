@@ -5,7 +5,7 @@ repo_name: Roald87/TwinCatChangelog
 
 theme:
   name: material
-  custom_dir: overrides 
+  custom_dir: overrides  
   palette:
     - media: "(prefers-color-scheme: light)" 
       primary: deep purple
@@ -28,6 +28,10 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+
+extra:
+  analytics:
+    provider: custom
 
 plugins:
   - search
