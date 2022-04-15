@@ -19,6 +19,12 @@
 - Added: [`Tc2_Utilities.RealIsNaN`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/11506311563.html?id=242917297032427132)
 - Added: [`Tc2_Utilities.RealIsFinite`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/11506278283.html?id=1461230831771457831)
 
+## Version 3.1.4024.23
+
+### Features
+
+- Limitation of decimal places with Tc3_IotCommunicator. [InfoSys](https://infosys.beckhoff.com/../content/1033/tf6730_tc3_iot_communicator/11268269707.html?id=2544377694223424412)
+
 ## Version 3.1.4024.22
 
 ### Features
