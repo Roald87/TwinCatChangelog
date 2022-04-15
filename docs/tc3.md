@@ -12,6 +12,13 @@
 - TF6281 Ethernet/IP Scanner - EDS Parser version updated to 1.9 - Overhaul of UI interface and optimization of Config Instance handling
 - Exceptions within `FB_init`, `FB_reinit` & `FB_exit` now result in a core dump [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/5094414603.html&id=)
 
+## Version 3.1.4024.24
+
+### Features
+
+- Added: [`Tc2_Utilities.RealIsNaN`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/11506311563.html?id=242917297032427132)
+- Added: [`Tc2_Utilities.RealIsFinite`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/11506278283.html?id=1461230831771457831)
+
 ## Version 3.1.4024.22
 
 ### Features
