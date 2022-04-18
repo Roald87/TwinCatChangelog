@@ -85,7 +85,10 @@
 
 ## Version 3.1.4024.11
 
-**Usage of this version is not recommended due to some issues. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).**
+<!-- prettier-ignore-start -->
+!!! warning 
+    Usage of this version is not recommended due to some issues. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+<!-- prettier-ignore-end -->
 
 ### Features
 
@@ -100,7 +103,10 @@
 
 ## Version 3.1.4024.10
 
-**Usage of this version is not recommended due to some issues. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).**
+<!-- prettier-ignore-start -->
+!!! warning
+    Usage of this version is not recommended due to some issues. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+<!-- prettier-ignore-end -->
 
 ### Features
 

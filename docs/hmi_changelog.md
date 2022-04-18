@@ -43,4 +43,7 @@
 
 ## Version 1.10.1171.165
 
-**Warning: DO NOT USE THIS VERSION. It contains a serious bug, where sometimes the HMI would randomly write default values into function blocks.**
+<!-- prettier-ignore-start -->
+!!! warning
+	Do not use this version. It contains a serious bug, where sometimes the HMI would randomly write default values into function blocks.
+<!-- prettier-ignore-end -->
