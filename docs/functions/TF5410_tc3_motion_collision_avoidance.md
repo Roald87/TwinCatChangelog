@@ -10,9 +10,9 @@ Due to continuous development and close integration with other software componen
 
 The TF5410 version 3.1.6 of Collision Avoidance will continue to be maintained as a functional compatible update for further availability.
 
-Software affected:  Beckhoff TwinCAT 3 TF5410 | TC3 Collision Avoidance version 3.1.10
+Software affected: Beckhoff TwinCAT 3 TF5410 | TC3 Collision Avoidance version 3.1.10
 
-Effect in application:  Motion behaviour under TF5410 version 3.1.10 may differ from those under version 3.1.6 of the software.
+Effect in application: Motion behaviour under TF5410 version 3.1.10 may differ from those under version 3.1.6 of the software.
 
 Fix, Avoidance: For a functional compatible update, the TF5410 version 3.1.6 branch should still be used, which will continue to be available via support.
 

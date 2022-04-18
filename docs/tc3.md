@@ -51,7 +51,7 @@
 ### Fix
 
 - `Find All References` (Cross Reference List) broken in v4024.20 solved.
-- 'Symbolic Mapping' bug fixed.  Prior to this release, if Symbolic Mapping was enabled, some mapped links could become non-functional if there was certain ADS communications during an activation or restart.
+- 'Symbolic Mapping' bug fixed. Prior to this release, if Symbolic Mapping was enabled, some mapped links could become non-functional if there was certain ADS communications during an activation or restart.
 
 ## Version 3.1.4024.17
 
@@ -206,7 +206,7 @@
 
 #### Safety-related properties
 
-- User-defined function blocks can be created and instantiated as  often as required (including GoToDefinition, Online View, nesting up to 2 levels).
+- User-defined function blocks can be created and instantiated as often as required (including GoToDefinition, Online View, nesting up to 2 levels).
 - Multiple use of variables.
 - Global variables.
 

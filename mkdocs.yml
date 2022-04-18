@@ -5,22 +5,22 @@ repo_name: Roald87/TwinCatChangelog
 
 theme:
   name: material
-  custom_dir: overrides  
+  custom_dir: overrides
   palette:
-    - media: "(prefers-color-scheme: light)" 
+    - media: "(prefers-color-scheme: light)"
       primary: deep purple
       scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)" 
+    - media: "(prefers-color-scheme: dark)"
       primary: yellow
       scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
 
-  features:   
+  features:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
@@ -37,7 +37,8 @@ plugins:
   - search
   - awesome-pages
 
-markdown_extensions:    
+markdown_extensions:
   - toc:
       toc_depth: 2
       permalink: "#"
+  - admonition

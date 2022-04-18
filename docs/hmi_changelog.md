@@ -28,7 +28,7 @@
 - Support for properties and method calls. See [InfoSys](https://infosys.beckhoff.com/content/1033/te2000_tc3_hmi_engineering/10740006667.html?id=1586893120692980090). (Note: Properties have worked before in older version in a similar way. Not sure what has changed other than an icon difference.)
 - Multiple server instances on one system. See [InfoSys](https://infosys.beckhoff.com/content/1033/tf2000_tc3_hmi_server/10740576267.html).
 - Automatic closing of HMI server instances during installation.
-- TwinCAT Hmi server registered as a service. It doesn't need to be  started manually anymore.
+- TwinCAT Hmi server registered as a service. It doesn't need to be started manually anymore.
 - Added NuGet package manager.
 
 ## Version 1.10.1336.203

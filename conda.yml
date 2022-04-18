@@ -7,6 +7,5 @@ dependencies:
   - pre-commit
   - pip
   - pip:
-    - mdformat-gfm
+      - mdformat-gfm
   - poetry
-    
