@@ -232,7 +232,7 @@
 
 ### Features
 
-- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 - TMC-Editor: Black Screen for Choose Language.
 - One-Click PDO-Mapping: a PDO can now be displayed as a structured variable, which may contain sub-structures.
 
@@ -261,7 +261,7 @@
 
 #### XAE
 
-- In the RM setup of this version the file TcXaeVsx.15.0.dll is missing. Therefore no TwinSAFE project can be opened (the TwinSAFE are is empty). Manually install this file into the Windows GAC. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- In the RM setup of this version the file TcXaeVsx.15.0.dll is missing. Therefore no TwinSAFE project can be opened (the TwinSAFE are is empty). Manually install this file into the Windows GAC. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 - Tc3Eventlogger: Selection of language keys needed two clicks instead of one.
 - CoE-Online: CoE-Entries of type Octet-String are now displayable up to 0x1000 bytes.
 - Tc Live Watch: Depending on Symbol Selection sometimes an increment was executed twice.
@@ -292,7 +292,7 @@
 ### Bugfixes
 
 - POUs can be removed from a PLC project in visual studio again.
-- Project compare tool works again. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- Project compare tool works again. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
 ## Version 3.1.4022.29
 
@@ -302,9 +302,15 @@
 
 ## Version 3.1.4022.27
 
+### Features
+
+- Multi dongle support. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header20_en).
+- Zoom function in Structured Text (ST) editor. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header20_en).
+- Supports 'region' to collapse code segments. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header20_en).
+
 ### Bugs
 
-- The Beckhoff project compare tool of this version does not work. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- The Beckhoff project compare tool of this version does not work. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
 ## Version 3.1.4022.20
 
@@ -374,13 +380,13 @@
 
 ### Remarks
 
-- TwinCAT 3.1.4022 handles I/O variables (`%I*`,`%Q*`) differently from all previous versions. If an I/O variable has the attributes `{attribute 'hide'}` or `{attribute 'hide_all_locals'}` (directly or indirectly), this variable is no longer included in the I/O image of the task and therefore cannot be linked any more. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- TwinCAT 3.1.4022 handles I/O variables (`%I*`,`%Q*`) differently from all previous versions. If an I/O variable has the attributes `{attribute 'hide'}` or `{attribute 'hide_all_locals'}` (directly or indirectly), this variable is no longer included in the I/O image of the task and therefore cannot be linked any more. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
 ## Version 3.1.4020.56
 
 ### Bugfixes
 
-- Solves many crashes that occurred with XAE 3.1.4020.28. [Source](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- Solves many crashes that occurred with XAE 3.1.4020.28. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
 ## Version 3.1.4020.32
 
@@ -388,6 +394,28 @@
 
 - Added: [`Tc2_EnOcean.STR_Teach`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_enocean/3266759563.html?id=3118338756872132117)
 - Added: [`Tc2_EnOcean.FB_Rec_Teach_In_Ex`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_enocean/3265337739.html?id=1791501473281069457)
+
+## Version 3.1.4020.28
+
+### Features
+
+<!-- prettier-ignore-start -->
+!!! note
+    Some of these features were likely already added in an earlier 4020.x release, but it is not known at this point.
+<!-- prettier-ignore-end -->
+
+- Installs Visual Studio Shell 2013. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Supports Visual Studio 2015. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Supports the Beckhoff license terminal EL6070. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Refactoring for easy renaming of variables in the whole project. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- View any memory areas in an online view. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Graphical editor for network variables. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Improved cross reference list view. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Static code analysis can be activated in the PLC project properties (e.g. search unused variables). [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- VAR_INST declares variables in methods that don't lose their values. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- The 'Add Method' dialog shows methods that are available in the interface/base FB. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Compiler version can be set in PLC project properties. [Bosch TwinCAT changelog.](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en)
+- Standard placeholder name must be set for library. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
 
 ## Version 3.1.4020.14
 
