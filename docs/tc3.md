@@ -502,6 +502,11 @@
 
 ## Version 3.1.0
 
+<!-- prettier-ignore-start -->
+!!! warning
+    While converting TwinCAT 3.0 projects into the TwinCAT 3.1 unexpected Negations and Edge Detection can occur in FBD/LD. Please check your application after the conversion process.
+<!-- prettier-ignore-end -->
+
 ### Features
 
 - Added: [`Tc2_Utilities.Global variables`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/35395979.html?id=8384408792737751163)
