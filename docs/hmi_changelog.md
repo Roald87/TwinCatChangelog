@@ -4,6 +4,13 @@
 
 - PLC properties can only be used explicitly in the HMI by linking the property individually to a control attribute. If the entire function block is linked to a control attribute, the property is not called. This is the case when a function block is used as the source data of the DataGrid or as a user control parameter.
 
+## Version 1.12.756.1
+
+- EtherCAT Diagnostics has now graphs for processdata, similar to the online view in the IO tree in a TwinCat project.
+- Scope control has new functionality to download/upload recordings.
+- Added functions
+  - Locale/GetLocalizedText: Returns a localized text by key.
+
 ## Version 1.12.754.4
 
 - EtherCAT Diagnostics can be used to write/force values
