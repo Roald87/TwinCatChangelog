@@ -4,4 +4,4 @@ ignorecase: false
 level: error
 nonword: true
 tokens:
-  - '(E|F|FB|I|MC|ST|Tc[23])_\w+'
+  - '(E|F|GCL|GVL|FB|I|MC|Param|ST|T|Tc[23]|U)_\w+'

@@ -275,7 +275,7 @@
 - Library content was only shown in Library Manager after reopening the solution.
 - Support of initial values for TcInitSymbol in attribute declaration context.
 - Automation Interface: LibraryManager: Adding a library with three-digit version number contained ".\*" on fourth place.
-- PLC HMI: VISU_TASK was duplicated under certain conditions when opening solution.
+- PLC HMI: `VISU_TASK` was duplicated under certain conditions when opening solution.
 - Output Pane "Build" was not cleared before "Check all objects".
 - Error might appear when installing lib from TNZIP archive ("Failed to open managed library (Reason: Object reference not set to an instance of an object)").
 
