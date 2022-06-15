@@ -23,20 +23,18 @@
 
 ### Features
 
-- Limitation of decimal places with Tc3_IotCommunicator. [InfoSys](https://infosys.beckhoff.com/../content/1033/tf6730_tc3_iot_communicator/11268269707.html?id=2544377694223424412)
+- Limitation of decimal places with `Tc3_IotCommunicator`. [InfoSys](https://infosys.beckhoff.com/../content/1033/tf6730_tc3_iot_communicator/11268269707.html?id=2544377694223424412)
 
 ## Version 3.1.4024.22
 
 ### Features
 
 - Maximum router memory increased from 1024 MB to 4095 MB [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf7xxx_tc3_vision/18014405306596491.html&id=)
-- Function block added: FB_CoEDriveEnable
-  [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731917067.html?id=7592382315255221170)
-- Function block added: FB_CoEDriveMoveVelocity
-  [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731918987.html?id=2982660607506303008)
-- Function block added: FB_SoEDriveEnable
+- Added: [`FB_CoEDriveEnable`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731917067.html?id=7592382315255221170)
+- Added: [`FB_CoEDriveMoveVelocity`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731918987.html?id=2982660607506303008)
+- Function block added: `FB_SoEDriveEnable`
   [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731920907.html?id=8376906030662804724)
-- Function block added: FB_SoEDriveMoveVelocity
+- Function block added: `FB_SoEDriveMoveVelocity`
   [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731923211.html?id=3237529037083558957)
 - Added: [`Tc2_System.FB_ResetTaskExceedCounter`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/11107119115.html?id=1948900602695240988)
 - Added: [`Tc2_System.FB_ReadTaskExceedCounter`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/11267603979.html?id=6554750661018839478)
