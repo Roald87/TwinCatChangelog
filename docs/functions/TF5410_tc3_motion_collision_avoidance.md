@@ -14,7 +14,7 @@ Software affected: Beckhoff TwinCAT 3 TF5410 | TC3 Collision Avoidance version 3
 
 Effect in app: motion behavior under TF5410 version 3.1.10 may differ from those under version 3.1.6 of the software.
 
-Fix, Avoidance: For a functional compatible update, the TF5410 version 3.1.6 branch should still be used, which continues to be available via support.
+Fix, Avoidance: for a functional compatible update, the TF5410 version 3.1.6 branch should still be used, which continues to be available via support.
 
 For systems with TF5410 version 3.1.6, an installation of TF5410 version 3.1.10 is possible, but requires a new functional check of the mechanical system during the following startup.
 
