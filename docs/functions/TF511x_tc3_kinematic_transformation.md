@@ -1,4 +1,4 @@
-# TF511x | TwinCAT 3 Kinematic Transformation
+# TF511x | TwinCAT 3 kinematic transformation
 
 ## Version 3.1.10.30
 

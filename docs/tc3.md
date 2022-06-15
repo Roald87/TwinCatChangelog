@@ -10,7 +10,7 @@
 ### Features
 
 - TF6281 Ethernet/IP Scanner - EDS Parser version updated to 1.9 - Overhaul of UI interface and optimization of Config Instance handling
-- Exceptions within `FB_init`, `FB_reinit` & `FB_exit` now result in a core dump [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/5094414603.html&id=)
+- Exceptions within `FB_init`, `FB_reinit` & `FB_exit` now result in a core dump [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/5094414603.html&id=)
 
 ## Version 3.1.4024.24
 
@@ -29,15 +29,15 @@
 
 ### Features
 
-- Maximum router memory increased from 1024 MB to 4095 MB [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf7xxx_tc3_vision/18014405306596491.html&id=)
+- Maximum router memory increased from 1024 MB to 4095 MB [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf7xxx_tc3_vision/18014405306596491.html&id=)
 - Function block added: FB_CoEDriveEnable
-  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731917067.html?id=7592382315255221170)
+  [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731917067.html?id=7592382315255221170)
 - Function block added: FB_CoEDriveMoveVelocity
-  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731918987.html?id=2982660607506303008)
+  [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731918987.html?id=2982660607506303008)
 - Function block added: FB_SoEDriveEnable
-  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731920907.html?id=8376906030662804724)
+  [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731920907.html?id=8376906030662804724)
 - Function block added: FB_SoEDriveMoveVelocity
-  [Infosys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731923211.html?id=3237529037083558957)
+  [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_drive/10731923211.html?id=3237529037083558957)
 - Added: [`Tc2_System.FB_ResetTaskExceedCounter`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/11107119115.html?id=1948900602695240988)
 - Added: [`Tc2_System.FB_ReadTaskExceedCounter`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/11267603979.html?id=6554750661018839478)
 - Added: [`Tc2_SystemCX.FB_CX70xx_RW_EEPROM`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_systemcx/11009227147.html?id=6115162706063450010)
@@ -64,24 +64,24 @@
 - The axis type set on the Configuration tab is only saved for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325852299.html?id=1663031461212356401)
 - The variant of the stand-alone PLC project selected on the Project tab is only saved for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325854219.html?id=7183010108179338387)
 - The device set on the General NOV-DP-RAM device tab is only set for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325868939.html?id=5362468858073827180)
-- The NOV-DP-RAM device is only disabled for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325868939.html?id=5362468858073827180)
+- The NOV-DP-RAM device is only inactive for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325868939.html?id=5362468858073827180)
 - Added: [`Tc3_EventLogger.FB_TcEventCsvExportSettings`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc3_eventlogger/9956771211.html?id=8771111572755601179)
 
 ## Version 3.1.4024.15
 
 ### Bug fix
 
-- A faulty driver in 4024.10-4024.12 can lead to Visual Studio crashes during a stand-alone project build. Specifically during the "Import symbol information" build step if a .tpr refactor file is present. Should be fixed in > 4024.12 (Source: Beckhoff support CH. See also [StackOverflow](https://stackoverflow.com/a/69926305/6329629).)
+- A faulty driver in 4024.10-4024.12 can lead to Visual Studio crashes during a stand-alone project build. Specifically during the "Import symbol information" build step if a .TPR refactor file is present. Should be fixed in > 4024.12 (Source: Beckhoff support CH. See also [StackOverflow](https://stackoverflow.com/a/69926305/6329629).)
 
 ### Features
 
-- Automatic Accurate Stop for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/10038263179.html&id=270450158997902620)
+- Automatic Accurate Stop for NCI GST Interpreter [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/10038263179.html&id=270450158997902620)
 
 ## Version 3.1.4024.12
 
 ### Features
 
-- Change in path dynamics for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/9237585035.html&id=8344109939385622623)
+- Change in path dynamics for NCI GST Interpreter [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/9237585035.html&id=8344109939385622623)
 
 ## Version 3.1.4024.11
 
@@ -92,7 +92,7 @@
 
 ### Features
 
-- Error analysis with core dump [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/6884133515.html&id=9193305343691095620)
+- Error analysis with core dump [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/6884133515.html&id=9193305343691095620)
 - The license dongle is only disabled for the active project variant or group [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325850379.html?id=1933378558029834697)
 - Added: [`Tc2_Utilities.FindAndSplitChar`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/8245507851.html?id=9180678329069202236)
 - Added: [`Tc2_Utilities.FindAndSplit`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/8235976331.html?id=3438267492659948266)
@@ -137,8 +137,8 @@
 
 ### Features
 
-- Spline interpolation for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/8250797579.html&id=2443170267198973234)
-- Change in axis dynamics for NCI GST Interpreter [Infosys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/8405470603.html&id=745347749354607281)
+- Spline interpolation for NCI GST Interpreter [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/8250797579.html&id=2443170267198973234)
+- Change in axis dynamics for NCI GST Interpreter [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/8405470603.html&id=745347749354607281)
 - The links selected via the Link to I/O button and Link To PLC on the Settings tab are only saved for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/variant_management/6325876619.html&id=)
 - The links to the process data objects (PDOs) of the EtherCAT device are only saved for the active project variant or group. [InfoSys](https://infosys.beckhoff.com/content/1033/variant_management/6325868939.html?id=5362468858073827180)
 
@@ -150,7 +150,7 @@
 - New home page, including new RSS feed with TwinCAT information.
 - Variant management. Simple configuration of machine options. Version-specific deactivation/activation of components. Version-specific parameterization. Mapped through ‘conditional compilation’ in the PLC.
 - Multi-user PLC capability. Several programmers can work on the same PLC project simultaneously.
-- Corrected time stamps for data records, e.g. via NTP protocol.
+- Corrected time stamps for data records, for example via NTP protocol.
 - Improved overview in the I/O configuration mapping dialog
 - 'Go To Definition' from the PLC process image to the PLC code in the I/O configuration
 - 'Secure ADS' Extension (uses TCP port 8016): encrypted ADS communication
@@ -186,8 +186,8 @@
 - Conditional compilation also available in the declaration section (in addition to implementation part).
 - Multi-line support in pragma declarations.
 - New, optional Base64 memory format for graphical PLC objects.
-- Events stored in a separate .tmc file are formatted with line breaks.
-- New pragma `{attribute 'to_string'}`, which makes the enum states available in string format. [InfoSys](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/5725733771.html?id=7792079828149116810)
+- Events stored in a separate .TMC file are formatted with line breaks.
+- New pragma `{attribute 'to_string'}`, which makes the ENUM states available in string format. [InfoSys](https://infosys.beckhoff.com/content/1033/tc3_plc_intro/5725733771.html?id=7792079828149116810)
 
 #### PLC HMI properties
 
@@ -199,7 +199,7 @@
 
 #### C++ & MATLAB properties
 
-- Exchange of TcCOM modules for C++ und MATLAB®/Simulink® while the machine is running.
+- Exchange of TcCOM modules for C++ and MATLAB®/Simulink® while the machine is running.
 - Repository for versioned C++ projects.
 - New way of signing TcCOM modules.
 
@@ -232,15 +232,15 @@
 
 ### Features
 
-- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library will be installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
-- TMC-Editor: Black Screen for Choose Language.
+- When using Integrated Robotics with Stäubli robots the uniVALplc Client Library is installed correctly with OES and Control plus Studio. This is important in case of a new development/service computer. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+- TMC-Editor: black screen for Choose Language.
 - One-Click PDO-Mapping: a PDO can now be displayed as a structured variable, which may contain sub-structures.
 
 #### IO
 
 - EthernetIP: new features "CoEoverCIP" and "FwdMsgToAmsPort" and implemented 16 bit Class/Instance/Attribute support.
 - Added support for installing adapter via MAC address.
-- EthernetIP: Forwarding of Class3-Messages to AmsPort (e.g. PLC) is now implemented.
+- EthernetIP: Forwarding of Class3-Messages to AmsPort (for example PLC) is now implemented.
 - Extension of the diag history for some slaves.
 - Multiple SafetyLogic-devices are now supported.
 - EK9300 and EL6631-0010: support up to 4 ARs in parallel.
@@ -251,13 +251,13 @@
 
 #### NC
 
-- Disable/reduce NC logger messages for flying saw (e.g. calc extrema for `MC_GearInVelo`, `MC_GearInPos`) if switching the NC logger level from 2 (SMART) down to 1 (MINIMUM).
+- Disable/reduce NC logger messages for flying saw (for example calculate extrema for `MC_GearInVelo`, `MC_GearInPos`) if switching the NC logger level from 2 (SMART) down to 1 (MINIMUM).
 - The "NC Axis Name" can now be longer than 31 characters for more extended information.
 - `MC_GearInMultiMaster` oversampling factor changed down to 10 to get a lower real time usage.
 - Improvement for large master values of splines.
 - New parameter for total covered distance.
 
-### Bugs
+### Bug fixes
 
 #### XAE
 
@@ -267,7 +267,7 @@
 - Tc Live Watch: Depending on Symbol Selection sometimes an increment was executed twice.
 - Compare tool: compare with target without PLC was not possible.
 - EthernetIP: EDS-Files with a Parameter-Value > INT64 and EDS-Files without Assembly were rejected.
-- Automation Interface: TcXaeShell froze while importing a xti file of an EL6652.
+- Automation Interface: TcXaeShell froze while importing a XTI file of an EL6652.
 - When a Tc2 Runtime was active and TwinCAT 3.1 XAE was trying to activate to configuration on the local hardware no error message was pointing to this error.
 - Axes might not be automatically renamed when copied and pasted between different folder levels.
 - Import of a device via XTI-File named "Device 0" lead to Visual Studio problem.
@@ -279,7 +279,7 @@
 - Automation Interface: LibraryManager: Adding a library with three-digit version number contained ".\*" on fourth place.
 - PLC HMI: VISU_TASK was duplicated under certain conditions when opening solution.
 - Output Pane "Build" was not cleared before "Check all objects".
-- Error might appear when installing lib from tnzip archive ("Failed to open managed library (Reason: Object reference not set to an instance of an object)").
+- Error might appear when installing lib from TNZIP archive ("Failed to open managed library (Reason: Object reference not set to an instance of an object)").
 
 ## Version 3.1.4022.31
 
@@ -289,7 +289,7 @@
 
 ## Version 3.1.4022.30
 
-### Bugfixes
+### Bug fixes
 
 - POUs can be removed from a PLC project in visual studio again.
 - Project compare tool works again. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
@@ -326,7 +326,7 @@
 
 ## Version 3.1.4022.16
 
-### Bugfixes
+### Bug fixes
 
 - Sometimes the Microsoft patch for Spectre/Meltdown would prevent you from activating the configuration on a local runtime. [See also](https://stackoverflow.com/questions/51185052/twincat-running-on-isolated-cores-failed).
 
@@ -384,7 +384,7 @@
 
 ## Version 3.1.4020.56
 
-### Bugfixes
+### Bug fixes
 
 - Solves many crashes that occurred with XAE 3.1.4020.28. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 
@@ -411,7 +411,7 @@
 - View any memory areas in an online view. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
 - Graphical editor for network variables. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
 - Improved cross reference list view. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
-- Static code analysis can be activated in the PLC project properties (e.g. search unused variables). [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
+- Static code analysis can be activated in the PLC project properties (for example search unused variables). [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
 - VAR_INST declares variables in methods that don't lose their values. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
 - The 'Add Method' dialog shows methods that are available in the interface/base FB. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
 - Compiler version can be set in PLC project properties. [Bosch TwinCAT changelog.](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en)
@@ -504,7 +504,7 @@
 
 <!-- prettier-ignore-start -->
 !!! warning
-    While converting TwinCAT 3.0 projects into the TwinCAT 3.1 unexpected Negations and Edge Detection can occur in FBD/LD. Please check your application after the conversion process.
+    While converting TwinCAT 3.0 projects into the TwinCAT 3.1 unexpected Negations and Edge Detection can occur in FBD/LD. Please check your app after the conversion process.
 <!-- prettier-ignore-end -->
 
 ### Features

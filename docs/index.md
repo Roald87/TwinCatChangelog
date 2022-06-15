@@ -1,6 +1,6 @@
 # Unofficial TwinCAT 3 changelog
 
-There are no official release notes of TwinCAT products or change logs. [This repo](https://github.com/Roald87/TwinCatChangelog) is a community effort which tries to track changes in Beckhoff's TwinCAT software.
+There are no official release notes of TwinCAT products or change logs. [This repository](https://github.com/Roald87/TwinCatChangelog) is a community effort which tries to track changes in Beckhoff's TwinCAT software.
 
 ## Contributing
 

@@ -1,4 +1,4 @@
-# TF6420 | TwinCAT 3 Database Server
+# TF6420 | TwinCAT 3 database server
 
 ## Version 3.3.34.0
 

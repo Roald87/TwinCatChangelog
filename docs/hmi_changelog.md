@@ -6,8 +6,8 @@
 
 ## Version 1.12.756.1
 
-- EtherCAT Diagnostics has now graphs for processdata, similar to the online view in the IO tree in a TwinCat project.
-- Scope control has new functionality to download/upload recordings.
+- EtherCAT Diagnostics has now graphs for process data, similar to the online view in the IO tree in a TwinCAT project.
+- Scope control has new feature to download/upload recordings.
 - Added functions
   - Locale/GetLocalizedText: Returns a localized text by key.
 
@@ -35,18 +35,18 @@
 - Support for properties and method calls. See [InfoSys](https://infosys.beckhoff.com/content/1033/te2000_tc3_hmi_engineering/10740006667.html?id=1586893120692980090). (Note: Properties have worked before in older version in a similar way. Not sure what has changed other than an icon difference.)
 - Multiple server instances on one system. See [InfoSys](https://infosys.beckhoff.com/content/1033/tf2000_tc3_hmi_server/10740576267.html).
 - Automatic closing of HMI server instances during installation.
-- TwinCAT Hmi server registered as a service. It doesn't need to be started manually anymore.
+- TwinCAT HMI server registered as a service. It doesn't need to be started manually anymore.
 - Added NuGet package manager.
 
 ## Version 1.10.1336.203
 
 ### Bug fix
 
-- The HMI doesn't randomly write values into function block. Note: I'm not 100% sure if it was fixed in this version, or one between 1.10.1171.165 and 1.10.1336.203.
+- The HMI doesn't randomly write values into function block. Note: It is unclear if it was fixed in this version, or one between 1.10.1171.165 and 1.10.1336.203.
 
 ## Version 1.10.1336.0
 
-- The CreateBinding action is replaced by a CreateBinding function. See [Infosys: CreateBinding](https://infosys.beckhoff.com/content/1033/te2000_tc3_hmi_engineering/5097942027.html?id=3579488638660561854). (Unknow if this cause issues during upgrade.)
+- The CreateBinding action is replaced by a CreateBinding function. See [InfoSys: CreateBinding](https://infosys.beckhoff.com/content/1033/te2000_tc3_hmi_engineering/5097942027.html?id=3579488638660561854). (Unknown if this cause issues during upgrade.)
 
 ## Version 1.10.1171.165
 

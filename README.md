@@ -1,10 +1,10 @@
-# Unofficial TwinCAT Changelog
+# Unofficial TwinCAT changelog
 
 <https://cookncode.com/TwinCatChangelog/> or <https://tcchanges.cookncode.com/>
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Roald87/TwinCatChangelog/main.svg)](https://results.pre-commit.ci/latest/github/Roald87/TwinCatChangelog/main)
 
-There are no official release notes of TwinCAT products or change logs. This repo is a community effort which tries to track changes in Beckhoff's TwinCAT software.
+There are no official release notes of TwinCAT products or change logs. This repository is a community effort which tries to track changes in Beckhoff's TwinCAT software.
 
 ## Contributing
 

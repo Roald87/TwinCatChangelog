@@ -1,4 +1,4 @@
-# TF5400 | TwinCAT 3 Advanced Motion Pack
+# TF5400 | TwinCAT 3 advanced motion pack
 
 ## Version 3.1.10.14
 
