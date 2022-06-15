@@ -1,0 +1,7 @@
+extends: existence
+message: "Format functions and function blocks as markdown code: `%s`."
+ignorecase: false
+level: error
+nonword: true
+tokens:
+  - '(E|F|GCL|GVL|FB|I|MC|Param|ST|T|Tc[23]|U)_\w+'
