@@ -4,8 +4,4 @@ ignorecase: false
 level: error
 nonword: true
 tokens:
-  - 'FB_\w+'
-  - 'F_\w+'
-  - 'MC_\w+'
-  - 'ST_\w+'
-  - 'Tc[23]_\w+'
+  - '(E|F|FB|I|MC|ST|Tc[23])_\w+'
