@@ -9,8 +9,7 @@
 - EtherCAT Diagnostics has now graphs for processdata, similar to the online view in the IO tree in a TwinCat project.
 - Scope control has new functionality to download/upload recordings.
 - Added functions
-  - Locale
-    - GetLocalizedText - Returns a localized text by key.
+  - Locale/GetLocalizedText: Returns a localized text by key.
 
 ## Version 1.12.754.4
 
