@@ -4,6 +4,14 @@
 
 - In VS2019 `Find` and `Find and Replace` does not work properly in TwinCAT files, related issue is tracked [here](https://developercommunity.visualstudio.com/content/problem/1168181/find-in-ivstextimage-does-not-work-in-visuastusio.html) .
 - Sudden error message "The operation could not be completed. Unspecified error" in a TwinCAT project. Function block files, would have yellow triangle symbols with an exclamation mark next to them. Starting a new project would result in `_3S.CoDeSys.UserManagement.UserAuthentication`. Issue and fix reported [here](https://stackoverflow.com/questions/71649887/twincat-project-build-fails-with-unspecified-error)
+- All versions of TwinCAT 3 have issues rendering dialogs and visual elements that rely on WinForms on high-DPI monitors. A work-around is to disable DPI awareness for WinForms using the registry, see [here](https://www.mking.net/blog/using-the-winforms-designer-on-high-dpi-systems). Issues related to this:
+  - Some dialogs are not displayed correctly when using a 4K monitor (Add POU, Library Manager, Prepare Value)
+  - HighDpi: Content of WebVisu object is not displayed correctly, when using a display zoom > 100%
+  - UML, HighDpi: Diagrams are not shown properly if display zoom > 100% (improper position relations, transition conditions/relation identifiers overlay other elements)
+  - HighDpi: Elements in toolbox get unclear/cannot be identified if display zoom > 100% (UML SC, UML CD, Visu)
+  - With high dpi the dialog 'Details' of the library manager is not displayed correctly
+  - Many tables in the IDE such as the "Startup parameter list" under I/O devices are collapsed such that not all the content is displayed unless the column is manually resized
+- Keywords such as `bool` inside of `TcLinkTo` attributes are auto-capitalized. Work-around: disable the "Convert keywords to uppercause automatically" option under `PLC Environment > Smart coding`. This is an issue because TcLinkTo is case-sensitive and some devices use keywords for the channel names, such as `bool` inside of an IO-link input channel.
 
 ## Version 3.1.4024.25
 
