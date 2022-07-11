@@ -13,6 +13,16 @@
   - Many tables in the IDE such as the "Startup parameter list" under I/O devices are collapsed such that not all the content is displayed unless the column is manually resized
 - Keywords such as `bool` inside of `TcLinkTo` attributes are auto-capitalized. Work-around: disable the "Convert keywords to uppercause automatically" option under `PLC Environment > Smart coding`. This is an issue because TcLinkTo is case-sensitive and some devices use keywords for the channel names, such as `bool` inside of an IO-link input channel.
 
+## Version 3.1.4024.32
+
+### Fix
+
+- `Tc3_JsonXml`: `FB_JsonSaxPrettyWriter` EXTENDS `FB_JsonSaxWriter` again so function blocks are interchangeable again for things dependent on the interface like `FB_JsonReadWriteDatatype`. This broke between 4024.15-29.
+
+## Version 3.1.4024.29
+
+### Features
+
 ## Version 3.1.4024.25
 
 ### Features
