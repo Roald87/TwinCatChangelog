@@ -103,3 +103,12 @@ Changes from firmware 3 build 0014 to firmware 3 build 0019.
 ## Firmware 1.02 build 0001, interface revision -0002
 
 No changes.
+
+# AX8000
+
+## Firmware 1.04
+
+### Features
+
+- New object 0x32E0:08 (Raw slave line data).
+- Measure internal encoder delay time. The result is shown in object 0x32E2:03.
