@@ -2,6 +2,7 @@ site_name: Unofficial TwinCAT 3 Changelog
 
 repo_url: https://github.com/Roald87/TwinCatChangelog
 repo_name: Roald87/TwinCatChangelog
+edit_uri: edit/main/docs/
 
 theme:
   name: material
