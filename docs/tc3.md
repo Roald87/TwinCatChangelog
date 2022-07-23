@@ -3,14 +3,14 @@
 ### Known issues
 
 - Sudden error message "The operation could not be completed. Unspecified error" in a TwinCAT project. Function block files, would have yellow triangle symbols with an exclamation mark next to them. Starting a new project would result in `_3S.CoDeSys.UserManagement.UserAuthentication`. Issue and fix reported [here](https://stackoverflow.com/questions/71649887/twincat-project-build-fails-with-unspecified-error)
-- All versions of TwinCAT 3 have issues rendering dialogs and visual elements that rely on WinForms on high-DPI monitors. A work-around is to disable DPI awareness for WinForms using the registry, see [here](https://www.mking.net/blog/using-the-winforms-designer-on-high-dpi-systems). Issues related to this:
+- All versions of TwinCAT 3 have issues rendering dialogs and visual elements that rely on WinForms on high-DPI monitors. A work-around is to turn off DPI awareness for WinForms using the registry, see [here](https://www.mking.net/blog/using-the-winforms-designer-on-high-dpi-systems). Issues related to this:
   - Some dialogs are not displayed correctly when using a 4K monitor (Add POU, Library Manager, Prepare Value)
   - HighDpi: Content of WebVisu object is not displayed correctly, when using a display zoom > 100%
   - UML, HighDpi: Diagrams are not shown properly if display zoom > 100% (improper position relations, transition conditions/relation identifiers overlay other elements)
   - HighDpi: Elements in toolbox get unclear/cannot be identified if display zoom > 100% (UML SC, UML CD, Visu)
   - With high dpi the dialog 'Details' of the library manager is not displayed correctly
   - Many tables in the IDE such as the "Startup parameter list" under I/O devices are collapsed such that not all the content is displayed unless the column is manually resized
-- Keywords such as `bool` inside of `TcLinkTo` attributes are auto-capitalized. Work-around: disable the "Convert keywords to uppercase automatically" option under `PLC Environment > Smart coding`. This is an issue because TcLinkTo is case-sensitive and some devices use keywords for the channel names, such as `bool` inside of an IO-link input channel.
+- Keywords such as `bool` inside of `TcLinkTo` attributes are auto-capitalized. Work-around: turn off the "Convert keywords to uppercase automatically" option under `PLC Environment > Smart coding`. This is an issue because TcLinkTo is case-sensitive and some devices use keywords for the channel names, such as `bool` inside of an IO-link input channel.
 
 ## Version 3.1.4024.32
 
@@ -21,21 +21,21 @@
 - Link between two TcCom objects created invalid mapping object.
 - TMC Editor: DoubleQuotes were doubled while re-import translations for events.
 - Status of the option "Swap LOBYTE and HIBYTE" were not stored.
-- Converter: If the PLC project could not be build, the functionality for changing the GVL variable links was not executed.
-- Wrong IEC code for ‘qualified only’ enum type used in struct with default value.
+- Converter: If the PLC project could not be build, the change of the GVL variable links was not executed.
+- Wrong IEC code for ‘qualified only’ `ENUM` type used in struct with default value.
 - XAE had problems after reloading TMC on an object.
 - If there was an old TMC file after updating the local copy of a specific project via Git, an unrestored link was not restored after compiling this project.
 - `__FileName__` was not set to (error) message if the "source" was saved as an independent project file.
 - Renaming the PLC project leads to names of all its instances were changed except of first default one.
 - When using the Automation Interface to add variant specific setting and then add a new variant config, the variant specific settings were lost.
 - An error in serializing RPC method calls is fixed.
-- Automation Interface: TwinCAT XAE problems when specifying ImplementationCode in ITcSmTreeItem::CreateChild TreeItemType.PlcPropertySet or TreeItemType.PlcPropertyGet.
+- Automation Interface: TwinCAT XAE problems when specifying ImplementationCode in `ITcSmTreeItem::CreateChild` `TreeItemType.PlcPropertySet` or `TreeItemType.PlcPropertyGet`.
 
 #### IO
 
 - Adapter IP incompatible warning staid and causes problems.
 - An AMP8000 EtherCAT device could be erroneously inserted.
-- Iot Driver: problems with tlsv1.3 version.
+- IoT Driver: problems with tlsv1.3 version.
 - EtherCAT: When inserting a device before a device with connector, the connector was not checked.
 - A device which only has an A-Port cannot be inserted multiple times.
 - It is now possible to add an AMP8000 to a port if there is a disabled AMP8000 connected.
@@ -44,8 +44,8 @@
 - BACnet Extension: Adjusted structured view creation to use setting in BACnet_Param.eView_SubordinateAnnotationMode to generate structure.
 - Profinet Controller: wrong record alignment during fragmentation.
 - Updated: Added support of Intel I225 network adapter on Windows CE.
-- EtherNet/IP: Communication Interruption on Explicit Messaging once every 24 – 48 hours.
-- In a specific 3rd party drive it was not possible to change specific PDO settings.
+- EtherNet/IP: Communication Interruption on Explicit Messaging once every 24—48 hours.
+- In a specific third party drive it was not possible to change specific PDO settings.
 - TwinCAT XAE had problems after rescanning a BK9100.
 - Dynamic PLC Objects can now not deleted from BACnet.
 - EtherCAT: a problem occurred when an emergency was sent by the EPP3632-0001.
@@ -58,7 +58,7 @@
 
 #### PLC
 
-- Breakpoint handling: 2nd PLC did not start anymore if a breakpoint was set in 1st PLC and the code of the 1st PLC was changed via online change.
+- Breakpoint handling: second PLC did not start anymore if a breakpoint was set in first PLC and the code of the first PLC was changed via online change.
 - Busy Hangup during Build of special TwinCAT Project with PLC.
 - After update from one version to the next one a problem appeared after a TwinCAT restart.
 - ‘Find All’ in Visual Studio 2019 jumps now to correct line in PLC.
@@ -69,14 +69,14 @@
 
 #### NC
 
-- 'ContinuousUpdate' functionality added to `MC_TorqueControl` for fast communication to change the commanded target torque value (like a cyclic controller application).
+- 'ContinuousUpdate' feature added to `MC_TorqueControl` for fast communication to change the commanded target torque value (like a cyclic controller app).
 - New NC simulation mode for `MC_TorqueControl` (equal to the existing NC simulation axis with simulation encoder).
-- Automation Interface: Include axis links in encoder device xml.
-- MC_MoveModulo improved to prevent seldom run-time error when new modulo command is requested during active movement.
+- Automation Interface: Include axis links in encoder device XML.
+- `MC_MoveModulo` improved to prevent seldom run-time error when new modulo command is requested during active movement.
 - Improvement switching drive operation mode from TorqueCtrl into Pos/Velo-Ctrl.
 - If TcNcAxis attribute in PLC could not be resolved an error message appears.
 - Jerk adjustment in a special situation during the decoupling phase of an accelerating slave axis with a new motion command to minimize unexpected overshoot.
-- Encoder Sub Mask with value 0xFFFFFFFF is now leading to correct velocity scaling for e.g. Bodeplot.
+- Encoder Sub Mask with value 0xFFFFFFFF is now leading to correct velocity scaling for example Bode plot.
 - XFC time cam shorter than cycle time is supported.
 - `Tc2_MC2_XFC digital` cam is considering direction parameter when turning on (`MC_DigitalCamSwitch`).
 
@@ -87,7 +87,7 @@
 - EventLogger lead to problems on CX8200.
 - TwinCAT/BSD: Evaluates now UserPath from TcRegistry.xml in SystemService.
 - TwinCAT/RTOS: MQTT receive error in combination with CX7000 fixed.
-- Expanded exception window text with the last four version numbers (e.g. 3.1.4548.6).
+- Expanded exception window text with the last four version numbers. For example 3.1.4548.6.
 - TcEventLogger: Required LoggedEvents.db to be closed in CONFIG Mode.
 - TwinCAT/BSD: EventLogger problems on C6017/CX5120 fixed.
 - TcEventLoggerAdsProxy: Alignment error in GetSourceGuid fixed.
@@ -96,7 +96,7 @@
 
 ### Features
 
-- Added write access via PID for synchron torque precontrol (additive torque offset for drive nOutData3).
+- Added write access via PID for synchronous torque pre-control (additive torque offset for drive nOutData3).
 
 ## Version 3.1.4024.29
 
