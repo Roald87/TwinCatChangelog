@@ -3,3 +3,7 @@ repos:
     rev: v2.7.1 # Use the sha or tag you want to point at
     hooks:
       - id: prettier
+        args: ["--tab-width", "4"]
+        types: [markdown]
+      - id: prettier
+        exclude_types: [markdown]
