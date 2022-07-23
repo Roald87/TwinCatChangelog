@@ -2,7 +2,6 @@
 
 ### Known issues
 
-- In VS2019 `Find` and `Find and Replace` does not work properly in TwinCAT files, related issue is tracked [here](https://developercommunity.visualstudio.com/content/problem/1168181/find-in-ivstextimage-does-not-work-in-visuastusio.html) .
 - Sudden error message "The operation could not be completed. Unspecified error" in a TwinCAT project. Function block files, would have yellow triangle symbols with an exclamation mark next to them. Starting a new project would result in `_3S.CoDeSys.UserManagement.UserAuthentication`. Issue and fix reported [here](https://stackoverflow.com/questions/71649887/twincat-project-build-fails-with-unspecified-error)
 - All versions of TwinCAT 3 have issues rendering dialogs and visual elements that rely on WinForms on high-DPI monitors. A work-around is to disable DPI awareness for WinForms using the registry, see [here](https://www.mking.net/blog/using-the-winforms-designer-on-high-dpi-systems). Issues related to this:
   - Some dialogs are not displayed correctly when using a 4K monitor (Add POU, Library Manager, Prepare Value)
@@ -15,9 +14,89 @@
 
 ## Version 3.1.4024.32
 
-### Fix
+### [Bug fixes](https://github.com/Roald87/TwinCatChangelog/files/9169772/Changelist_4024.29_to_4024.32_1.pdf)
 
+#### XAE
+
+- Link between two TcCom objects created invalid mapping object.
+- TMC Editor: DoubleQuotes were doubled while re-import translations for events.
+- Status of the option "Swap LOBYTE and HIBYTE" were not stored.
+- Converter: If the PLC project could not be build, the functionality for changing the GVL variable links was not executed.
+- Wrong IEC code for ‘qualified only’ enum type used in struct with default value.
+- XAE had problems after reloading TMC on an object.
+- If there was an old TMC file after updating the local copy of a specific project via Git, an unrestored link was not restored after compiling this project.
+- `__FileName__` was not set to (error) message if the "source" was saved as an independent project file.
+- Renaming the PLC project leads to names of all its instances were changed except of first default one.
+- When using the Automation Interface to add variant specific setting and then add a new variant config, the variant specific settings were lost.
+- An error in serializing RPC method calls is fixed.
+- Automation Interface: TwinCAT XAE problems when specifying ImplementationCode in ITcSmTreeItem::CreateChild TreeItemType.PlcPropertySet or TreeItemType.PlcPropertyGet.
+
+#### IO
+
+- Adapter IP incompatible warning staid and causes problems.
+- An AMP8000 EtherCAT device could be erroneously inserted.
+- Iot Driver: problems with tlsv1.3 version.
+- EtherCAT: When inserting a device before a device with connector, the connector was not checked.
+- A device which only has an A-Port cannot be inserted multiple times.
+- It is now possible to add an AMP8000 to a port if there is a disabled AMP8000 connected.
+- Updated: Added ADS service to the EtherCAT master to write data to the EEprom of an EtherCAT slave.
+- BACnet Rev14: ReadProperty was not working with ArrayIndex, also not working with RPM.
+- BACnet Extension: Adjusted structured view creation to use setting in BACnet_Param.eView_SubordinateAnnotationMode to generate structure.
+- Profinet Controller: wrong record alignment during fragmentation.
+- Updated: Added support of Intel I225 network adapter on Windows CE.
+- EtherNet/IP: Communication Interruption on Explicit Messaging once every 24 – 48 hours.
+- In a specific 3rd party drive it was not possible to change specific PDO settings.
+- TwinCAT XAE had problems after rescanning a BK9100.
+- Dynamic PLC Objects can now not deleted from BACnet.
+- EtherCAT: a problem occurred when an emergency was sent by the EPP3632-0001.
+- BACnet Rev14 : COV-U was not working correctly if client/object is configured statically.
+- Sometimes a problem occurred when one restarts TwinCAT and the HMI EtherCAT Topology Control is active.
+- EthernetIP: Master might use invalid Destination IP for Output UDP-IO Frames depending on FwdOpen reply of remote node.
+- Warning about EtherCAT address appeared for disabled terminals although it is not possible to change the address.
+- In the memory view of an EtherCAT slave PHY MIO Address was not displayed correctly.
+- Different values in startup with and without ESI.
+
+#### PLC
+
+- Breakpoint handling: 2nd PLC did not start anymore if a breakpoint was set in 1st PLC and the code of the 1st PLC was changed via online change.
+- Busy Hangup during Build of special TwinCAT Project with PLC.
+- After update from one version to the next one a problem appeared after a TwinCAT restart.
+- ‘Find All’ in Visual Studio 2019 jumps now to correct line in PLC.
+- Automation Interface: Export/ProduceXml was not possible for PLC functions without return type (void).
+- TcDocGen: internal variables now also rendered in documentation.
+- Standalone PLC: Parameter (0x08500005) mismatch error appeared while online change in a specific project
+- Project Compare problem occurred while comparing two SFC POUs.
+
+#### NC
+
+- 'ContinuousUpdate' functionality added to `MC_TorqueControl` for fast communication to change the commanded target torque value (like a cyclic controller application).
+- New NC simulation mode for `MC_TorqueControl` (equal to the existing NC simulation axis with simulation encoder).
+- Automation Interface: Include axis links in encoder device xml.
+- MC_MoveModulo improved to prevent seldom run-time error when new modulo command is requested during active movement.
+- Improvement switching drive operation mode from TorqueCtrl into Pos/Velo-Ctrl.
+- If TcNcAxis attribute in PLC could not be resolved an error message appears.
+- Jerk adjustment in a special situation during the decoupling phase of an accelerating slave axis with a new motion command to minimize unexpected overshoot.
+- Encoder Sub Mask with value 0xFFFFFFFF is now leading to correct velocity scaling for e.g. Bodeplot.
+- XFC time cam shorter than cycle time is supported.
+- `Tc2_MC2_XFC digital` cam is considering direction parameter when turning on (`MC_DigitalCamSwitch`).
+
+#### System
+
+- Changed ‘hint’ to ‘error’ dialog when a task dump is (or might be) written.
+- Problems when accessing last byte of an array of `BITARR4` with an uneven number of elements.
+- EventLogger lead to problems on CX8200.
+- TwinCAT/BSD: Evaluates now UserPath from TcRegistry.xml in SystemService.
+- TwinCAT/RTOS: MQTT receive error in combination with CX7000 fixed.
+- Expanded exception window text with the last four version numbers (e.g. 3.1.4548.6).
+- TcEventLogger: Required LoggedEvents.db to be closed in CONFIG Mode.
+- TwinCAT/BSD: EventLogger problems on C6017/CX5120 fixed.
+- TcEventLoggerAdsProxy: Alignment error in GetSourceGuid fixed.
+- TcEventLogger: AdsLogMessages might be malformed.
 - `Tc3_JsonXml`: `FB_JsonSaxPrettyWriter` EXTENDS `FB_JsonSaxWriter` again so function blocks are interchangeable again for things dependent on the interface like `FB_JsonReadWriteDatatype`. This broke between 4024.15-29.
+
+### Features
+
+- Added write access via PID for synchron torque precontrol (additive torque offset for drive nOutData3).
 
 ## Version 3.1.4024.29
 
