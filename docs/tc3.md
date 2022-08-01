@@ -111,7 +111,7 @@
 -   XAE had problems if a percent sign (%) was used with attribute `'TcLinkTo'`.
 -   Automation Interface: Change of encrypt file did not change the encryption of the file.
 -   Automation Interface: ConsumeXml changes were overridden by closing tab dialog.
--   Converting of TwinCAT 2 tsm did not work properly, reference was not set to an instance of an object if adding task reference to PLC.
+-   Converting of TwinCAT 2 `.tsm` did not work properly, reference was not set to an instance of an object if adding task reference to PLC.
 -   Task got allocated port number.
 
 #### IO
@@ -119,7 +119,7 @@
 -   TC/BSD: USB dongle occasionally caused "Send Mbx Communication Warning" error.
 -   MQTT retain flag for ‘last will’ was not set correctly when the MQTT client sends the ‘last will’ when the socket is closed.
 -   Profibus: Some modules with `' ('` in name, were not accessible.
--   EthernetIP: Timeout multiplier combobox was not working correct.
+-   EthernetIP: Timeout multiplier combo-box was not working correct.
 -   EthernetIP: Sending of UDP IO frames was disturbed.
 
 #### PLC
