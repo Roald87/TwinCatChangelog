@@ -105,7 +105,59 @@
 
 ## Version 3.1.4024.29
 
-### Features
+### [Bug fixes](https://github.com/Roald87/TwinCatChangelog/files/9206317/Changelist_4024.25_to_4024.29.pdf)
+
+#### XAE
+
+-   Import `.tnzip` files lead to incorrect paths
+-   XAE had problems after working with a specific project for some time.
+-   Auto generated type could be changed in editor.
+-   VariantManagement: Network adapter was not saved correctly variant specifically, if 'Virtual Device Names' was activated.
+-   XAE had problems if a percent sign (%) was used with attribute `'TcLinkTo'`.
+-   Automation Interface: Change of encrypt file did not change the encryption of the file.
+-   Automation Interface: ConsumeXml changes were overridden by closing tab dialog.
+-   Converting of TwinCAT 2 `.tsm` did not work properly, reference was not set to an instance of an object if adding task reference to PLC.
+-   Task got allocated port number.
+
+#### IO
+
+-   TC/BSD: USB dongle occasionally caused "Send Mbx Communication Warning" error.
+-   MQTT retain flag for ‘last will’ was not set correctly when the MQTT client sends the ‘last will’ when the socket is closed.
+-   Profibus: Some modules with `' ('` in name, were not accessible.
+-   EthernetIP: Timeout multiplier combo-box was not working correct.
+-   EthernetIP: Sending of UDP IO frames was disturbed.
+
+#### PLC
+
+-   Variables of structure `ST_LibVersion` were missing in automatically generated
+    function `F_GetVersion`.
+-   UML SC library 4.2.2.0 was not properly installed, although it was part of the "ManagedLibraries" folder.
+-   Online change after a change of the mapping lead to problems.
+-   `FB_Reinit` of sub-instance was not called during Online Change.
+
+#### NC
+
+-   NC configuration decimal values missing / change in decimal symbol.
+-   Small modifications on NC SAF and SVB task interrupt handling to prevent race
+    conditions.
+
+#### System
+
+-   TC/BSD: OS Version in "Add Route Dialog" shows now correct TwinCAT/BSD.
+-   Secure ADS: Host name was limited to 32 bytes, longer FQDN could not connect
+
+### [Features](https://github.com/Roald87/TwinCatChangelog/files/9206317/Changelist_4024.25_to_4024.29.pdf)
+
+#### IO
+
+-   EtherCAT Slave: `m_guidTComEvent` readable via ADS.
+-   Object name is used for EtherCAT emergency messages.
+-   System Manager checks now if the same NIC is used for standard EtherCAT and for Redundancy.
+-   Support implemented for disabling sending of cyclic EtherCAT frames, that only have commands directed to disabled slaves.
+
+#### NC
+
+-   "add to scope" functionality for NC axis.
 
 ## Version 3.1.4024.25
 
