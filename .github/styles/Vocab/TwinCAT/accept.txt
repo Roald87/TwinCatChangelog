@@ -9,6 +9,7 @@ TF[0-9x]{4}
 3.1.4\d{3}
 Beckhoff
 disabled
+EEprom
 IoT
 namespaces
 Sercos
