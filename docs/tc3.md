@@ -39,11 +39,9 @@
 -   EtherCAT: When inserting a device before a device with connector, the connector was not checked.
 -   A device which only has an A-Port cannot be inserted multiple times.
 -   It is now possible to add an AMP8000 to a port if there is a disabled AMP8000 connected.
--   Updated: Added ADS service to the EtherCAT master to write data to the EEprom of an EtherCAT slave.
 -   BACnet Rev14: ReadProperty was not working with ArrayIndex, also not working with RPM.
 -   BACnet Extension: Adjusted structured view creation to use setting in BACnet_Param.eView_SubordinateAnnotationMode to generate structure.
 -   Profinet Controller: wrong record alignment during fragmentation.
--   Updated: Added support of Intel I225 network adapter on Windows CE.
 -   EtherNet/IP: Communication Interruption on Explicit Messaging once every 24—48 hours.
 -   In a specific third party drive it was not possible to change specific PDO settings.
 -   TwinCAT XAE had problems after rescanning a BK9100.
@@ -95,6 +93,13 @@
 -   `Tc3_JsonXml`: `FB_JsonSaxPrettyWriter` EXTENDS `FB_JsonSaxWriter` again so function blocks are interchangeable again for things dependent on the interface like `FB_JsonReadWriteDatatype`. This broke between 4024.15-29.
 
 ### Features
+
+#### IO
+
+-   Added ADS service to the EtherCAT master to write data to the EEprom of an EtherCAT slave.
+-   Added support of Intel I225 network adapter on Windows CE.
+
+#### NC
 
 -   Added write access via PID for synchronous torque pre-control (additive torque offset for drive nOutData3).
 
