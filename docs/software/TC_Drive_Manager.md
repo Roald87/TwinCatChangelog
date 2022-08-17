@@ -106,6 +106,12 @@ No changes.
 
 # AX8000
 
+## Firmware 1.05
+
+### Bug fixes
+
+-   Recording a Bode plot sometimes caused the motor to uncontrollably move with a constant velocity to one end.
+
 ## Firmware 1.04
 
 ### Features
