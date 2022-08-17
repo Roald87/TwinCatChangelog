@@ -110,7 +110,7 @@ No changes.
 
 ### Bug fixes
 
-- Recording a Bode plot sometimes caused the motor to uncontrollably move with a constant velocity to one end.
+-   Recording a Bode plot sometimes caused the motor to uncontrollably move with a constant velocity to one end.
 
 ## Firmware 1.04
 
