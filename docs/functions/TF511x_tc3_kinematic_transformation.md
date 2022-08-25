@@ -3,8 +3,9 @@
 ## Version 3.1.10.66:
 
 New kinematics:
- - 3D-Tripod Type 1 (P_3Z)
-- 3D-Tripod Type 2 (P_3L)
+
+-   3D-Tripod Type 1 (P_3Z)
+-   3D-Tripod Type 2 (P_3L)
 
 ## Version 3.1.10.30
 
