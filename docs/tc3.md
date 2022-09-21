@@ -324,6 +324,7 @@
 -   Added: [`Tc2_Utilities.FB_AddRouteEntryEx`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/9682603019.html?id=518382000701176094)
 -   Added: [`Tc2_EtherCAT.FILETIME64_TO_DCTIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501953035.html?id=6364488115705130388)
 -   Added: [`Tc2_EtherCAT.DCTIME64_TO_FILETIME64`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_ethercat/10501992459.html?id=5144094238682126626)
+-   Added: [`Tc2_MC2.MC_TorqueControl`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137)
 
 #### PLC properties
 
