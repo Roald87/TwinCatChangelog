@@ -15,3 +15,5 @@ If you noticed that a bug was fixed in a certain version or a certain feature wa
 -   and a link to the source if it is available. If there is no source, mention where you got the information from in the pull request.
 
 In case you have a larger change in mind, please first open [an issue](https://github.com/Roald87/TwinCatChangelog/issues) such that it can be discussed first. For example, if you want to add a new page, or restructure how the project is organized.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z7D5MJ0)
