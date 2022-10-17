@@ -536,6 +536,7 @@
 -   Added: [`Tc2_System.F_CheckMemoryArea`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/4012887435.html?id=1489036489025421628)
 -   Added: [`Tc2_System.F_GetStructMemberAlignment`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/31021579.html?id=243854104101513882)
 -   Added: [`Tc2_System.FB_FileLoad`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_system/7083988875.html?id=5357302780541448503)
+-   [PLC Static Analyses](https://infosys.beckhoff.com/content/1033/te1200_tc3_plcstaticanalysis/3472333323.html?id=4292646479033383042) is now available.
 
 ### Remarks
 
