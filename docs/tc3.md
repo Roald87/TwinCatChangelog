@@ -105,6 +105,13 @@
 
 ## Version 3.1.4024.29
 
+## Features
+
+-   Added: [`Tc2_Utilities.E_HashMode`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/12674322571.html?id=1394075611762795497)
+-   Added: [`Tc2_Utilities.F_GetClassIdVersioned`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/12674393611.html?id=2848447897774806889)
+-   Added: [`Tc2_Utilities.F_GenerateHashValue`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/12674358283.html?id=4370544162846202285)
+-   Added: [`Tc2_Utilities.FB_CalcHashValue`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc2_utilities/12674253067.html?id=2119009142677043780)
+
 ### [Bug fixes](https://github.com/Roald87/TwinCatChangelog/files/9206317/Changelist_4024.25_to_4024.29.pdf)
 
 #### XAE
