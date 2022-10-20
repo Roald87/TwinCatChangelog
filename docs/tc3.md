@@ -11,8 +11,21 @@
     -   With high dpi the dialog 'Details' of the library manager is not displayed correctly
     -   Many tables in the IDE such as the "Startup parameter list" under I/O devices are collapsed such that not all the content is displayed unless the column is manually resized
 -   Keywords such as `bool` inside of `TcLinkTo` attributes are auto-capitalized. Work-around: turn off the "Convert keywords to uppercase automatically" option under `PLC Environment > Smart coding`. This is an issue because TcLinkTo is case-sensitive and some devices use keywords for the channel names, such as `bool` inside of an IO-link input channel.
--   The `ContinuousUpdate` input of [`MC_TorqueControl`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137) doesn't work. It will be fixed in version >3.1.4024.32.
--   [`MC_TorqueControl`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137) doesn't work in [simulation mode](https://infosys.beckhoff.com/content/1033/tf50x0_tc3_nc_ptp/2834717323.html?id=8250271195349757571). You get error messages "Group function is rejected with error-code 0x4626 or the function is not supported !" and "The axis function 'TorqueControl' has been declined because it's not possible to read the currend generic drive operation mode (error: 0x4626)" (sic)
+
+## Version 3.1.4024.35
+
+### Bug fixes
+
+-   `FB_Exit` is called again when `PLC_Reset` is used.
+-   "Find all references" and "Go to definition" menu was sometimes missing
+
+### Features
+
+-   `MC_GearInVelo` now supports `SyncMode := TIMEBASE` with negative gains.
+-   `MC_MoveVelocity`, `MC_MoveAbsolute` and `MC_Halt` ran into error when frequently called with changing dynamics and `BufferMode := MC_Aborting`.
+-   The user interface for task sorting is updated.
+-   The `ContinuousUpdate` input of [`MC_TorqueControl`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137) works. Note: you need to update your run time to version 3.1.4024.35 for it to work.
+-   [`MC_TorqueControl`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137) works in [simulation mode](https://infosys.beckhoff.com/content/1033/tf50x0_tc3_nc_ptp/2834717323.html?id=8250271195349757571). Note: you need to update your run time to version 3.1.4024.35 for it to work.
 
 ## Version 3.1.4024.32
 
