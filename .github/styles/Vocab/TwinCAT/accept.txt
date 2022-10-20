@@ -12,6 +12,7 @@ disabled
 EEprom
 IoT
 namespaces
+nuget
 Sercos
 SERCOS
 Simulink

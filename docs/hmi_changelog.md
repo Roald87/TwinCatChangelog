@@ -10,18 +10,18 @@
 -   New themed symbol type which responds to HMI theme changes
 -   Improved TcHMI nuget package version management.
     -   Old version numbering:
-        -   HMI Product version 1.12.756.1 (Major.Minor.Build.Patch)
-        -   nuget Package version 12.756.1 (Major.Minor.Patch)
+        -   HMI Product version 1.12.756.1 (`Major.Minor.Build.Patch`)
+        -   nuget Package version 12.756.1 (`Major.Minor.Patch`)
     -   New:
-        -   Server API Version (Server_API_Version.Minor.Patch)
-    -   Breaking changes increase Server_API_Version.
+        -   Server API Version (`Server_API_Version.Minor.Patch`)
+    -   Breaking changes increase `Server_API_Version`.
     -   Meta package describe the dependencies.
 -   EtherCAT diagnostics template for HMI project generator.
--   Add a scale factor for all HMI charts in the GraphDescription property
+-   Add a scale factor for all HMI charts in the `GraphDescription` property.
 -   Add stacked axis for bar charts.
 -   Add support for x/y triggers in TcHmiScope.
 -   EtherCAT diagnostics for Tc/BSD.
--   Add toggle for advanced settings of HMI server. Enable by right click on server in HMI project.
+-   Add toggle for advanced settings of HMI server. Enable by right click the server in the HMI project.
 -   Add pragma's to automatically map PLC symbols.
 
 ```
@@ -41,7 +41,7 @@ END_VAR
 -   Pin HMI project to a specific TcHMI version. Disables auto migration to new HMI version.
 -   Alarms can be created directly from ADS, OPC UA or a custom server extension. Includes EventGrid & EventLine support, localized text and integrated in the HMI server.
 -   Directly download or upload scope records to and from HMI server.
--   Set min and max values for enums and to define a value range.
+-   Set min and max values for ENUMs and to define a value range.
 -   It is possible to ignore escape sequences. Option `ignoreEscapeSequences` in the properties of for example a text block.
     − On `C:\TwinCAT\Functions`
     − Off `C:TwinCATFunctions`
@@ -56,7 +56,7 @@ END_VAR
     -   Access virtual directories outside of the working directory
     -   User management is integrated
     -   Upload and download files
--   New service webpage to manage multiple server instances. Accessible through right click on HMI server > Service configuration.
+-   New service webpage to manage multiple server instances. Accessible through right click HMI server > Service configuration.
 -   New TC2049 "Time Based Clients" license. For 30 minute single client access if maximum clients are reached or for maintenance.
 -   Event logger now supports Comment, Description URL and Description Text of an event.
 -   Symbol `ClearLoggedEvents` is added to delete database entries from HMI client.
