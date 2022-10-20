@@ -261,7 +261,7 @@
 
 <!-- prettier-ignore-start -->
 !!! warning 
-  Usage of this version is not recommended due to some issues. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+    Usage of this version is not recommended due to some issues. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 <!-- prettier-ignore-end -->
 
 ### Features
@@ -279,7 +279,7 @@
 
 <!-- prettier-ignore-start -->
 !!! warning
-  Usage of this version is not recommended due to some issues. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
+    Usage of this version is not recommended due to some issues. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#EN).
 <!-- prettier-ignore-end -->
 
 ### Features
@@ -578,7 +578,7 @@
 
 <!-- prettier-ignore-start -->
 !!! note
-  Some of these features were likely already added in an earlier 4020.x release, but it is not known at this point.
+    Some of these features were likely already added in an earlier 4020.x release, but it is not known at this point.
 <!-- prettier-ignore-end -->
 
 -   Installs Visual Studio Shell 2013. [Bosch TwinCAT changelog](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-version-overview/ta-p/48982#Header26_en).
@@ -681,7 +681,7 @@
 
 <!-- prettier-ignore-start -->
 !!! warning
-  While converting TwinCAT 3.0 projects into the TwinCAT 3.1 unexpected Negations and Edge Detection can occur in FBD/LD. Please check your app after the conversion process.
+    While converting TwinCAT 3.0 projects into the TwinCAT 3.1 unexpected Negations and Edge Detection can occur in FBD/LD. Please check your app after the conversion process.
 <!-- prettier-ignore-end -->
 
 ### Features
