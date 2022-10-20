@@ -293,6 +293,7 @@
 -   Added: [`Tc3_DynamicMemory.FB_DynMem_Manager2`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc3_dynamicmemory/8846845195.html?id=7453149925464657306)
 -   Added: [`Tc3_DynamicMemory.FB_DynMem_Manager`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc3_dynamicmemory/8846834443.html?id=273899389167963679)
 -   Added: [`Tc3_DynamicMemory.FB_DynMem_Buffer`](https://infosys.beckhoff.com/../content/1033/tcplclib_tc3_dynamicmemory/8844514315.html?id=8241497333647833217)
+-   Added: [`Tc3_JsonXml.FB_JsonDynDomParser`](https://infosys.beckhoff.com/content/1033/tcplclib_tc3_jsonxml/8101725835.html?id=4882529747495611578)
 
 ## Version 3.1.4024.4
 
