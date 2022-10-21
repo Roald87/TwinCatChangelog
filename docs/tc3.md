@@ -17,7 +17,8 @@
 ### Bug fixes
 
 -   `FB_Exit` is called again when `PLC_Reset` is used.
--   "Find all references" and "Go to definition" menu was sometimes missing
+-   "Find all references" and "Go to definition" menu was sometimes missing.
+-   TwinCAT no longer crashes when a cold reset is done via a Visual Basic script and a `Tc3_EventLogger.FB_TcMessage` is used.
 
 ### Features
 
