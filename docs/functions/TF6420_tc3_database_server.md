@@ -1,21 +1,23 @@
 # TF6420 | TwinCAT 3 database server
 
 ## Version 3.3.35.0
-- Database Configurator
-    - New design of DocumentDB in SQL Query Editor
-    - Added Find, Insert, Update, Aggregate and Drop/Delete for NoSQL
-- Database Server
-    - New support of InfluxDB2
-        - Connection Token support
-        - Support of Flux language – also in SQL Query Editor
-        - Support of all Function Blocks 
-            - For NoSQL FBs please use Time Series Query Builder
-            - Only Stored Procedure FBs are not supported
-    - Type System improvements for InfluxDB1.x support
-    - Optimized multiple calls of RunOnce method on WinCE
 
-- Database Library
-  - New disable option to clear memory of FB_PLCDBCmdEvt via property
+-   Database Configurator
+    -   New design of DocumentDB in SQL Query Editor
+    -   Added Find, Insert, Update, Aggregate and Drop/Delete for NoSQL
+-   Database Server
+
+    -   New support of InfluxDB2
+        -   Connection Token support
+        -   Support of Flux language – also in SQL Query Editor
+        -   Support of all Function Blocks
+            -   For NoSQL FBs please use Time Series Query Builder
+            -   Only Stored Procedure FBs are not supported
+    -   Type System improvements for InfluxDB1.x support
+    -   Optimized multiple calls of RunOnce method on WinCE
+
+-   Database Library
+    -   New disable option to clear memory of FB_PLCDBCmdEvt via property
 
 ## Version 3.3.34.5
 
