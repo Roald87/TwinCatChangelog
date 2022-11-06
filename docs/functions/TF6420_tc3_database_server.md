@@ -8,16 +8,16 @@
 -   Database Server
 
     -   New support of InfluxDB2
-        -   Connection Token support
-        -   Support of Flux language – also in SQL Query Editor
-        -   Support of all Function Blocks
-            -   For NoSQL FBs please use Time Series Query Builder
-            -   Only Stored Procedure FBs are not supported
-    -   Type System improvements for InfluxDB1.x support
+        -   Connection token support
+        -   Support of gzlux language—also in SQL Query Editor
+        -   Support of all function blocks
+            -   For NoSQL function blocks use the Time Series Query Builder
+            -   Only stored procedure function blocks are not supported
+    -   Type system improvements for InfluxDB1.x support
     -   Optimized multiple calls of RunOnce method on WinCE
 
 -   Database Library
-    -   New disable option to clear memory of FB_PLCDBCmdEvt via property
+    -   New option to disable the clear memory of `FB_PLCDBCmdEvt` via property
 
 ## Version 3.3.34.5
 
