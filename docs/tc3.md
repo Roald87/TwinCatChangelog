@@ -253,7 +253,6 @@
 -   Automatic Accurate Stop for NCI GST Interpreter [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tf5100_tc3_nc_i/10038263179.html&id=270450158997902620)
 -   Added: [`Tc2_MC2.MC_TorqueControl`](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137). Requires Tc3 3.1.4024.15 on both XAE and XAR. Requires firmware 2.14 or later for AX5000 and firmware 1.03 Build 002 or later for AX8000.
 
-
 ## Version 3.1.4024.12
 
 ### Features
