@@ -8,4 +8,4 @@ dependencies:
   - pip
   - pip:
       - mdformat-gfm
-  - poetry
+  - poetry>=1.2.0
