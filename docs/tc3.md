@@ -14,16 +14,13 @@
 -   'RecipeManager' will not allow the use of complex DataTypes such as structures - Using them gives a 'Invalid Type' warning in the Type coloumn, and gives a compile error.
 -   Variables inside Function Blocks from Libraries are not checked using the 'CheckBounds' implicit checks, allowing for the accessing of an invalid Index and raising an exception if bounds are not properly checked by the programmer. Assumed that other implicit checks are not active either.
 -   TwinCAT does not allow filepaths greater than 255 characters total by design - It is possible to achieve a filepath of greater than this by renaming root folders without issue, sometimes leading to a compilation error.
--   If a folder is renamed such that a method/FB/program/etc has a filepath that is greater than 255 characters, TwinCAT will usually still compile. However, if that code then raises a compile error for unrelated reasons, clicking the error message in the Error list will crash TwinCat. 
+-   If a folder is renamed such that a method/FB/program/etc has a filepath that is greater than 255 characters, TwinCAT will usually still compile. However, if that code then raises a compile error for unrelated reasons, clicking the error message in the Error list will crash TwinCat.
 -   If a file has a filepath greater than 255 characters while being part of a library, TC will allow the library to be saved and installed without issue. However, the file with the long filepath will give a compile error with a essentially useless error message.
--   Static Analysis rule SA0145 does not seem to acknowledge when a reference has been checked as valid using __ISVALIDREF() - And will continue to give an error even when the reference is properly checked.
--   Static Analysis rule SA0002 will give a "empty object" warning for a empty object, even when there is a '// Not needded' or similar comment inside. This means you cannot use the rule whilst using a Function block via methods only. 
+-   Static Analysis rule SA0145 does not seem to acknowledge when a reference has been checked as valid using \_\_ISVALIDREF() - And will continue to give an error even when the reference is properly checked.
+-   Static Analysis rule SA0002 will give a "empty object" warning for a empty object, even when there is a '// Not needded' or similar comment inside. This means you cannot use the rule whilst using a Function block via methods only.
 -   TC will allow the setting a Stack size that is too large for a controller will cause it to crash, without giving any error or indication as to why (e.g. Setting 4MB on a CX7000 will cause it to just immediatly fault on every power cycle).
 -   When working inside a library, typing a type from that Library, TwinCAT will try to insert the Library Namespace - Which is not valid for the Library.
--   Events added to a EventClass in the Type system require a succsessful complilation to be saved - Making changes and saving the project without building it will not save the changes. Similarly, if there is a compile error, the changes will not be saved. 
-
-
-
+-   Events added to a EventClass in the Type system require a succsessful complilation to be saved - Making changes and saving the project without building it will not save the changes. Similarly, if there is a compile error, the changes will not be saved.
 
 ## Version 3.1.4024.35
 
