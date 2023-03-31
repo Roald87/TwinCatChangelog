@@ -11,6 +11,16 @@
     -   With high dpi the dialog 'Details' of the library manager is not displayed correctly
     -   Many tables in the IDE such as the "Startup parameter list" under I/O devices are collapsed such that not all the content is displayed unless the column is manually resized
 -   Keywords such as `bool` inside of `TcLinkTo` attributes are auto-capitalized. Work-around: turn off the "Convert keywords to uppercase automatically" option under `PLC Environment > Smart coding`. This is an issue because TcLinkTo is case-sensitive and some devices use keywords for the channel names, such as `bool` inside of an IO-link input channel.
+-   The use of complex data types such as structures is not supported in the RecipeManager. Attempting to use them results in an 'Invalid Type' warning in the Type column and a compile error.
+-   Variables inside library function blocks are not subject to the implicit bounds checking provided by the 'CheckBounds' feature. This can result in accessing invalid indices, causing exceptions if bounds are not properly checked. It is also assumed that other implicit checks are not active.
+-   TwinCAT's design does not allow paths length greater than 255 characters. It's possible to exceed this limit by renaming root folders, which may result in a compilation error.
+-   If a folder is renamed such that a method/FB/program/etc. has a path exceeding 255 characters, TwinCAT usually still compiles. However, clicking on an error message in the error list can cause TwinCAT to crash.
+-   TwinCAT allows the installation of a library containing a file with a path exceeding 255 characters without issue. However, attempting to compile this file results in an error message that is essentially useless.
+-   Despite using `__ISVALIDREF()` to validate a reference, the static analysis rule SA0145 does not recognize it as valid and continues to give an error.
+-   The Static Analysis rule SA0002 generates an empty object warning for an empty object even if it contains a '// Not needed' comment. This rule cannot be used with Function Blocks via methods only.
+-   TwinCAT allows setting a stack size that is too large for a controller, which can cause it to crash without any error message or indication.
+-   When typing a type from a library in TwinCAT, it tries to insert the library namespace, which is not valid for the library.
+-   Events added to an EventClass in the type system must be successfully compiled to be saved. If changes are made and the project is saved without building it, the changes are not saved. Similarly, if there is a compile error, the changes are not saved.
 
 ## Version 3.1.4024.35
 
