@@ -6,7 +6,7 @@
 
 _Requires TwinCAT V3.1.4024.24 or higher_
 
--   New: In a CM group with Geo Blending, a blocker, that is triggered early enough before it becomes active, will be blended over and passed on without interruption.
+-   New: In a CM group with Geo Blending, a blocker, that is triggered early enough before it becomes active, blends over and passed on without interruption.
 
 ## Version 3.1.10.14
 
@@ -37,7 +37,7 @@ _Requires TwinCAT V3.1.4022.0 or higher_
 
 ## Version 3.1.6.3
 
--   New function blocks for spatial transformations, i.e. for changing the reference system (`MC_SetCoordinateTransform`) and for conveyor tracking (`MC_TrackConveyorBelt`).
+-   New function blocks for spatial transformations, that is for changing the reference system (`MC_SetCoordinateTransform`) and for conveyor tracking (`MC_TrackConveyorBelt`).
 -
 
 ## Version 3.1.4.4
