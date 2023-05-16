@@ -4,6 +4,9 @@
 
 -   PLC properties can only be used explicitly in the HMI by linking the property individually to a control attribute. If the entire function block is linked to a control attribute, the property is not called. This is the case when a function block is used as the source data of the DataGrid or as a user control parameter.
 
+## Version 1.12.760.37
+-   Fixed a crash when loading symbols from a .tmc file
+
 ## Version 1.12.758
 
 -   Add recipe management control to create and edit recipes.
