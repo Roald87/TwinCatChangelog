@@ -7,6 +7,12 @@
 ## Version 1.12.760.37
 
 -   Fixed a crash when loading symbols from a .tmc file
+-   Add new controls:
+    -   `TcHmiObjectBrowser` - a Treeview for heterogenous data
+    -   `TcHmiTabNavigation` - a Tab navigation control
+    -   `TcHmiTachometer` - a Tachometer
+    -   `TcHmiPopup` - a Popup.
+-   Add `ReferenceLines` and `ReferenceLinesPosition` properties for charts
 
 ## Version 1.12.758
 
