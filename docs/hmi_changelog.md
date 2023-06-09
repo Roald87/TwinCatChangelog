@@ -11,8 +11,22 @@
     -   `TcHmiObjectBrowser` - a Treeview for heterogenous data
     -   `TcHmiTabNavigation` - a Tab navigation control
     -   `TcHmiTachometer` - a Tachometer
-    -   `TcHmiPopup` - a Popup.
+    -   `TcHmiPopup` - create popups from UserControls or Contents.
 -   Add `ReferenceLines` and `ReferenceLinesPosition` properties for charts
+-   New keyboard layout that pops automatically depending on the input field type. See the HMI Configuration Window.
+-   Object browser to, for example, link a struct to present its contents. Can be used for both viewing and editing.
+-   MDP/IPC diagnostics extension as a nuget-package.
+-   PackML Control as a nuget-package.
+-   TF2110 HMI OPC UA Client for TC/BSD
+-   Allow maintenance mode to ignore license errors.
+-   EcDiagnostics: configurable update intervals.
+-   `GetElementByIndex` function for single data element of an array.
+-   TcHmi Scope Extension: support of TcAnalytics file format.
+-   Add TwinCAT build number to ADS diagnostics.
+-   Autodetect for placing validation symbol in input elements.
+-   Fill mode for lines for line and trend line charts.
+-   BarChart: change the bar color when values are exceeded.
+-   LineChart: add a one and two dimensional array support.
 
 ## Version 1.12.758
 
