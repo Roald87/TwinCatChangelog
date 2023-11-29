@@ -1,6 +1,6 @@
 # TwinCAT 3
 
-### Known issues
+## Known issues
 
 -   Sudden error message "The operation could not be completed. Unspecified error" in a TwinCAT project. Function block files, would have yellow triangle symbols with an exclamation mark next to them. Starting a new project would result in `_3S.CoDeSys.UserManagement.UserAuthentication`. Issue and fix reported [here](https://stackoverflow.com/questions/71649887/twincat-project-build-fails-with-unspecified-error)
 -   All versions of TwinCAT 3 have issues rendering dialogs and visual elements that rely on WinForms on high-DPI monitors. A work-around is to turn off DPI awareness for WinForms using the registry, see [here](https://www.mking.net/blog/using-the-winforms-designer-on-high-dpi-systems). Issues related to this:
@@ -26,8 +26,7 @@
 
 ### Bug fixes
 
-    -TcXaeShell: Message 'Project has been modified outside the environment' during export of Control plus Studio fixed
-
+-   TcXaeShell: Message 'Project has been modified outside the environment' during export of Control plus Studio fixed
 -   Support of Visual Studio 2019 improved (Search, Find all References/Cross Reference List)
 -   TwinCAT Project Compare: Fixed a crash when comparing a SFC chain
 -   'Go to definition [F12]' was sometimes not visible in the context menu of a variable in previous 4024 versions
