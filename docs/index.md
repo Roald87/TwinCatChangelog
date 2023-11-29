@@ -2,6 +2,8 @@
 
 There are no official release notes of TwinCAT products or change logs. [This repository](https://github.com/Roald87/TwinCatChangelog) is a community effort which tries to track changes in Beckhoff's TwinCAT software.
 
+There is another [unoffcial changelog from Bosch](https://community.developer.bosch.com/t5/Knowledge-base/TwinCAT-XAE-Version-Overview/ta-p/48982).
+
 ## Contributing
 
 If you noticed that a bug was fixed in a certain version or a certain feature was added, please:
