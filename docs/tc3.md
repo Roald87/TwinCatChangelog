@@ -22,6 +22,16 @@
 -   When typing a type from a library in TwinCAT, it tries to insert the library namespace, which is not valid for the library.
 -   Events added to an EventClass in the type system must be successfully compiled to be saved. If changes are made and the project is saved without building it, the changes are not saved. Similarly, if there is a compile error, the changes are not saved.
 
+## Version 3.1.4024.47
+
+### Bug fixes
+
+    -TcXaeShell: Message 'Project has been modified outside the environment' during export of Control plus Studio fixed
+
+-   Support of Visual Studio 2019 improved (Search, Find all References/Cross Reference List)
+-   TwinCAT Project Compare: Fixed a crash when comparing a SFC chain
+-   'Go to definition [F12]' was sometimes not visible in the context menu of a variable in previous 4024 versions
+
 ## Version 3.1.4024.35
 
 ### Bug fixes
