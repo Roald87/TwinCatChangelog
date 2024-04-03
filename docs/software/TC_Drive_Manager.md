@@ -1,3 +1,37 @@
+# TE5950 TC3 Drive Manager 2
+
+## Version 1.1.76.0
+
+-   AX8000 Axis module firmware 1.02 build 0012, interface revision -0102
+-   AX8000 Axis module firmware 1.03 build 0006, interface revision -0103
+-   NEW: AX8000/AMP8000 Axis module firmware 1.04 build 0010, interface revision -0104
+-   AX8000/AMP8000 Axis module firmware 1.05 build 0012, interface revision -0105
+-   AX8000/AMP8000 Axis module firmware 1.06 build 0002, interface revision -0106
+-   AX8yxx boot loader version 1.35
+-   AX8525 / AX8540 / AX8620 / AX8640 Power supply module firmware 1.05 build 0006, interface revision -0105
+-   AX8810 Capacitor module firmware 1.00 build 0022, interface revision -0100
+-   AX86xx/AX8810 boot loader version 2.31 build 0000
+-   AX883x Coupling module Firmware 2.01 Build 0001, interface revision -0201
+-   NEW: AX8600 DC power supply module firmware 1.01 build 0005, interface revision -0101
+-   AMP8600/AMP8800 Distributed power supply module / Decentralized distribution module firmware 2.01 build 0006, interface revision -0201
+-   AX5000 Servo Drive firmware 2.13 build 0010, interface revision -0213
+-   AX5000 Servo Drive firmware 2.14 build 0006, interface revision -0214
+-   AX570x Optional encoder card firmware 2.00 build 0009
+-   AX572x Optional digital encoder card firmware 3.00 build 0020
+-   AX5021 Brake module firmware 1.02 build 0001
+
+## Version 1.1.58.0
+Supported devices: AX5000, AX8000, AMI8000, AMP8000, EL72xx, ELM72xx, EL74xx, EL7037, EL7047
+
+## Features
+- AX5000/AX8000: Check and adjust feedback connections when importing settings from different channels
+-Adjustments and optimizations of the parameter description, user interface and usability 
+
+## Bug fixes 
+- Scan ELM72xx channel B
+- AX80000/AMP8000: Display and configure velocity and acceleration in NC units when modulo is enabled
+- Import an axis from Motion Designer project
+
 # TC drive manager
 
 ## Version 2.14.30.0
