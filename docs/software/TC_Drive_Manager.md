@@ -21,16 +21,19 @@
 -   AX5021 Brake module firmware 1.02 build 0001
 
 ## Version 1.1.58.0
+
 Supported devices: AX5000, AX8000, AMI8000, AMP8000, EL72xx, ELM72xx, EL74xx, EL7037, EL7047
 
 ## Features
-- AX5000/AX8000: Check and adjust feedback connections when importing settings from different channels
--Adjustments and optimizations of the parameter description, user interface and usability 
 
-## Bug fixes 
-- Scan ELM72xx channel B
-- AX80000/AMP8000: Display and configure velocity and acceleration in NC units when modulo is enabled
-- Import an axis from Motion Designer project
+-   AX5000/AX8000: Check and adjust feedback connections when importing settings from different channels
+    -Adjustments and optimizations of the parameter description, user interface and usability
+
+## Bug fixes
+
+-   Scan ELM72xx channel B
+-   AX80000/AMP8000: Display and configure velocity and acceleration in NC units when modulo is enabled
+-   Import an axis from Motion Designer project
 
 # TC drive manager
 
