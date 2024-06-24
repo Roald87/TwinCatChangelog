@@ -39,7 +39,7 @@
 
 ### Features
 
-- `MC_Halt`/`MC_Stop` switches automatically to cyclic synchronous velocity (velocity control) (CSV) cyclic synchronous position (position control) (CSP) after recovering from and error where the previous state was Cyclic Synchronous Torque Mode (CST). [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137).
+-   `MC_Halt`/`MC_Stop` switches automatically to cyclic synchronous velocity (velocity control) (CSV) cyclic synchronous position (position control) (CSP) after recovering from and error where the previous state was Cyclic Synchronous Torque Mode (CST). [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137).
 
 ## Version 3.1.4024.35
 
