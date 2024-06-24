@@ -33,7 +33,13 @@
 
 ### Features
 
--   New tool/User interface for `Emergency Scan`. Located in IO -> EtherCAT master -> Advanced Settings -> Emergency -> Scan. More information in infosys: https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_io_intro/1446585227.html&id=1449419436157771945
+-   New tool/User interface for `Emergency Scan`. Located in IO -> EtherCAT master -> Advanced Settings -> Emergency -> Scan. More information in [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_io_intro/1446585227.html&id=1449419436157771945)
+
+## Version 3.1.4024.40
+
+### Features
+
+-   `MC_Halt`/`MC_Stop` switches automatically to cyclic synchronous velocity (velocity control) (CSV) cyclic synchronous position (position control) (CSP) after recovering from and error where the previous state was Cyclic Synchronous Torque Mode (CST). [InfoSys](https://infosys.beckhoff.com/content/1033/tcplclib_tc2_mc2/7617393803.html?id=6677792901421113137).
 
 ## Version 3.1.4024.35
 
