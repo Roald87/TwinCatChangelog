@@ -33,7 +33,7 @@
 
 ### Features
 
--   New tool/User interface for `Emergency Scan`. Located in IO -> EtherCAT master -> Advanced Settings -> Emergency -> Scan. More information in infosys: https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_io_intro/1446585227.html&id=1449419436157771945
+-   New tool/User interface for `Emergency Scan`. Located in IO -> EtherCAT master -> Advanced Settings -> Emergency -> Scan. More information in [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_io_intro/1446585227.html&id=1449419436157771945)
 
 ## Version 3.1.4024.35
 
