@@ -26,7 +26,7 @@
 
 ### Bug fixes
 
--  TwinCAT automation interfaces: fixes bug when configuring Boot settings, the example in [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_automationinterface/2489005451.html&id=) can be run now
+-   TwinCAT automation interfaces: fixes bug when configuring Boot settings, the example in [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_automationinterface/2489005451.html&id=) can be run now
 
 ## Version 3.1.4024.47
 
