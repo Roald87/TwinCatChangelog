@@ -22,6 +22,12 @@
 -   When typing a type from a library in TwinCAT, it tries to insert the library namespace, which is not valid for the library.
 -   Events added to an EventClass in the type system must be successfully compiled to be saved. If changes are made and the project is saved without building it, the changes are not saved. Similarly, if there is a compile error, the changes are not saved.
 
+## Version 3.1.2024.56
+
+### Bug fixes
+
+-   TwinCAT automation interfaces: fixes bug when configuring Boot settings, the example in [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_automationinterface/2489005451.html&id=) can be run now
+
 ## Version 3.1.4024.47
 
 ### Bug fixes
