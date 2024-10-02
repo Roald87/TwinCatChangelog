@@ -22,6 +22,12 @@
 -   When typing a type from a library in TwinCAT, it tries to insert the library namespace, which is not valid for the library.
 -   Events added to an EventClass in the type system must be successfully compiled to be saved. If changes are made and the project is saved without building it, the changes are not saved. Similarly, if there is a compile error, the changes are not saved.
 
+## Version 3.1.4024.59
+
+### Bug fixes
+
+-   If a compiled libary is included in the project you could not open the libary by selecting the normal libary file. A popup to select the libary was shown, but the libary would not open.
+
 ## Version 3.1.4024.56
 
 ### Bug fixes
