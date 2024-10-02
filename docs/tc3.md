@@ -26,7 +26,7 @@
 
 ### Bug fixes
 
-- If a compiled libary is included in the project you could not open the libary by selecting the normal libary file. A popup to select the libary was shown, but the libary would not open.
+-   If a compiled libary is included in the project you could not open the libary by selecting the normal libary file. A popup to select the libary was shown, but the libary would not open.
 
 ## Version 3.1.4024.56
 
