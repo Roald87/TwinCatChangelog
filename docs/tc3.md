@@ -22,6 +22,12 @@
 -   When typing a type from a library in TwinCAT, it tries to insert the library namespace, which is not valid for the library.
 -   Events added to an EventClass in the type system must be successfully compiled to be saved. If changes are made and the project is saved without building it, the changes are not saved. Similarly, if there is a compile error, the changes are not saved.
 
+## Version 3.1.4026.10
+
+### Features
+
+- Removed option to "Load Project from TwinCAT 2.xx Version" from TwinCAT XAE project menu. [See reported issue](https://github.com/Roald87/TwinCatChangelog/issues/105).
+
 ## Version 3.1.4024.59
 
 ### Bug fixes
