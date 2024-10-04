@@ -26,7 +26,7 @@
 
 ### Features
 
-- Removed option to "Load Project from TwinCAT 2.xx Version" from TwinCAT XAE project menu. [See reported issue](https://github.com/Roald87/TwinCatChangelog/issues/105).
+-   Removed option to "Load Project from TwinCAT 2.xx Version" from TwinCAT XAE project menu. [See reported issue](https://github.com/Roald87/TwinCatChangelog/issues/105).
 
 ## Version 3.1.4024.59
 
