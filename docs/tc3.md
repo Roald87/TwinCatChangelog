@@ -34,6 +34,13 @@
 
 -   If a compiled libary is included in the project you could not open the libary by selecting the normal libary file. A popup to select the libary was shown, but the libary would not open.
 
+## Version 3.1.4024.57
+
+### Features
+-   Added a new PLC Library: [`Tc3_EtherCATDiag`](https://infosys.beckhoff.com/content/1033/tcplclib_tc3_ethercatdiag/index.html?id=3964124123819749934)
+-   Added FB: [`Tc3_EtherCATDiag.FB_CoE_DiagHistory_Read`](https://infosys.beckhoff.com/content/1033/tcplclib_tc3_ethercatdiag/16258944267.html?id=2604576156864178380)
+-   Added FB: [`Tc3_EtherCATDiag.FB_CoE_DiagHistory_ReadAxis`](https://infosys.beckhoff.com/content/1033/tcplclib_tc3_ethercatdiag/16259854219.html?id=5407492558433557970)
+
 ## Version 3.1.4024.56
 
 ### Bug fixes
