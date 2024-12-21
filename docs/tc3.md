@@ -28,6 +28,12 @@
 
 - Removed option to "Load Project from TwinCAT 2.xx Version" from TwinCAT XAE project menu. [See reported issue](https://github.com/Roald87/TwinCatChangelog/issues/105).
 
+## Version 3.1.4026.3
+
+### Bug fixes
+
+- Fixes an issue where the real time clock (RTC) could randomly change by significant amounts (usually multiple centuries or more) and lead to high system utilization and overall instability (Windows targets only running on non-isolated cores)
+
 ## Version 3.1.4024.59
 
 ### Bug fixes
@@ -47,6 +53,12 @@
 ### Bug fixes
 
 - TwinCAT automation interfaces: fixes bug when configuring Boot settings, the example in [InfoSys](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_automationinterface/2489005451.html&id=) can be run now
+
+## Version 3.1.4024.55
+
+### Bug fixes
+
+- Fixes an issue where the real time clock (RTC) could randomly change by significant amounts (usually multiple centuries or more) and lead to high system utilization and overall instability (Windows targets only running on non-isolated cores)
 
 ## Version 3.1.4024.47
 
