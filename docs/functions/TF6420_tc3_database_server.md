@@ -6,7 +6,6 @@
     - New design of DocumentDB in SQL Query Editor
     - Added Find, Insert, Update, Aggregate and Drop/Delete for NoSQL
 - Database Server
-
     - New support of InfluxDB2
         - Connection token support
         - Support of Flux language—also in SQL Query Editor
