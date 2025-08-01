@@ -21,6 +21,7 @@
 - TwinCAT allows setting a stack size that is too large for a controller, which can cause it to crash without any error message or indication.
 - When typing a type from a library in TwinCAT, it tries to insert the library namespace, which is not valid for the library.
 - Events added to an EventClass in the type system must be successfully compiled to be saved. If changes are made and the project is saved without building it, the changes are not saved. Similarly, if there is a compile error, the changes are not saved.
+- The XPlanar Configurator tool does not render properly if Windows scaling is set to anything other than 100%.
 
 ## Version 3.1.4026.14
 
@@ -65,6 +66,12 @@
 ### Bug fixes
 
 - Fixes an issue where the real time clock (RTC) could randomly change by significant amounts (usually multiple centuries or more) and lead to high system utilization and overall instability (Windows targets only running on non-isolated cores)
+
+## Version 3.1.4024.53
+
+### Known issues
+
+- When working with XPlanar TcCOM objects, if the movers are stored in individual files (.xti files) instead of lumped into the main .tsproj file, the links to the MC axes will be lost every time the file is opened. The workaround is to store these TcCOM objects in the main .tsproj file (which is default behavior). This bug was fixed in an unknown later version.
 
 ## Version 3.1.4024.47
 
